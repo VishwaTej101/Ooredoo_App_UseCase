@@ -1,0 +1,7 @@
+﻿2024-05-03 17:58:40.088 +0530	START		Running Tests/TC_C_Top_Up.script
+2024-05-03 17:58:40.900 +0530	click	Top_Up_Icon	at (326, 2175)	3	on_clickeventcollection	Common.script
+2024-05-03 17:58:55.191 +0530	waitfor	(TEXT:"VOUCHER CODE")	found at (224, 618)	5	on_validate	Common.script
+2024-05-03 17:58:58.349 +0530	click	(TEXT:"ONLINE TOPUP")	at (307, 1088)	11	on_tc_c_top_up	Tests/TC_C_Top_Up.script
+2024-05-03 17:58:59.370 +0530	typetext		1000	13	on_tc_c_top_up	Tests/TC_C_Top_Up.script
+2024-05-03 17:58:59.910 +0530	EndTestCase		(Duration:"19.806", Errors:"0", Exceptions:"0", StartTime:"2024-05-03 17:58:40 +0530", Successes:"1", TestCase:"Tests/TC_C_Top_Up.script", Warnings:"0")
+2024-05-03 17:59:00.118 +0530	SUCCESS		Execution Time 0:00:19 Tests/TC_C_Top_Up.script

@@ -1,0 +1,14 @@
+﻿2024-05-06 19:17:17.499 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:17:17.633 +0530	set		SWIPESPEED = 1.5	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:17:26.811 +0530	imagefound	(TEXT:"OMart")	Unable to Find Image (TEXT:"OMart") within 0.00 seconds. Text not found.	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:17:40.916 +0530	swipeup	(TEXT:"Ayan Tan")	Swiped up from (406, 1698) to (406, 738)	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:17:48.953 +0530	set		SWIPESPEED = 1	15	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:00.307 +0530	swipeleft	(TEXT:"OMart")	Swiped left from (687, 1236) to (255, 1236)	17	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:12.662 +0530	everyimagelocation	(TEXT:"Oomanji")	found 2 images	19	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:12.672 +0530	Log		[[150,870],[793,1225]]	21	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:12.795 +0530	click		at (793, 1225)	23	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:21.241 +0530	click	(TEXT:"PLAY NOW")	at (538, 1504)	7	on_clickeventcollection	Common.script
+2024-05-06 19:18:24.743 +0530	click	Level_2	at (361, 1443)	3	on_clickeventcollection	Common.script
+2024-05-06 19:18:29.935 +0530	typetext		[BackButton]	61	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:18:30.013 +0530	EndTestCase		(Duration:"72.506", Errors:"0", Exceptions:"0", StartTime:"2024-05-06 19:17:17 +0530", Successes:"1", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-06 19:18:30.182 +0530	SUCCESS		Execution Time 0:01:12 Tests_Cases/TC_D_Game_Play.script

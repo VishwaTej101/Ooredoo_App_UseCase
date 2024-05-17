@@ -1,0 +1,99 @@
+{
+	"originalcapturelocation": [
+		925,
+		381,
+		104,
+		72
+	],
+	"lastmodifieddate": 1714655551.928,
+	"createddate": 1714655398.0089998,
+	"name": "cross_One",
+	"lastfounddate": 1714984791.006,
+	"ocrcapturestring": "X",
+	"lastfoundlocation": [
+		925,
+		381,
+		104,
+		72
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 62016,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[52,36]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "62017",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "62016",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "cross_One.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					925,
+					381,
+					104,
+					72
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "X"
+			},
+		{
+				"connectionportnum": 62016,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[52,36]",
+					"Tolerance": 6,
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "62017",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "62016",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "cross_One.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					925,
+					381,
+					104,
+					72
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "X"
+			}
+	]
+}

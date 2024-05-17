@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_A_Login_script" package="Ooredoo_Client.suite" timestamp="2024-05-07 10:47:28.776 +0530"
+ tests="1"  failures="0" errors="0" time="13.472000">
+  <properties>
+   <property name="RunDate" value="2024-05-07 10:47:28.776 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_A_Login.script" assertions="1" status="failure"  time="13.454">
+    <failure type="FAILURE" message="See main script" />
+  </testcase>
+ </testsuite>
+</testsuites>

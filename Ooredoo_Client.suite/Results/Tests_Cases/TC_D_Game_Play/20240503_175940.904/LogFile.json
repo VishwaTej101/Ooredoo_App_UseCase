@@ -1,0 +1,96 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_D_Game_Play.script",
+				"identifier": "START",
+				"timestamp": "2024-05-03 17:59:40.928 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-03 17:59:50.185 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 17:59:53.405 +0530",
+				"message": "SwipeLeft{SearchRectangle:[2,1524,1058,1895]}",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"handlerLine": 4,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 17:59:59.771 +0530",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"message": "at (687, 1665)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 6,
+				"identifier": "imagelocation"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:29.244 +0530",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"message": "at (687, 1710)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 7,
+				"identifier": "moveto"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:29.273 +0530",
+				"message": "SWIPESPEED = 15",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"handlerLine": 9,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:31.262 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"handlerLine": 10,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:31.269 +0530",
+				"message": "SWIPESPEED = 30",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:38.525 +0530",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"message": "Swiped left from (687, 1710) to (255, 1710)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 13,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-03 18:00:43.195 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Tests/TC_D_Game_Play.script",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"62.34\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-03 17:59:40 +0530\", Successes:\"0\", TestCase:\"Tests/TC_D_Game_Play.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-03 18:00:43.277 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:02 Tests/TC_D_Game_Play.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-03 18:00:43.292 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-03 17:59:40.935 +0530"
+}

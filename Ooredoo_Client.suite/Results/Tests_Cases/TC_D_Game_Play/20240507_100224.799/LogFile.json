@@ -1,0 +1,63 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "START",
+				"timestamp": "2024-05-07 10:02:24.818 +0530"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-07 10:02:24.954 +0530",
+				"message": "SWIPESPEED = 1.5",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-07 10:02:36.369 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-07 10:02:50.439 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped up from (406, 1698) to (406, 738)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 13,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-07 10:02:58.469 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-07 10:03:11.243 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped left from (687, 1422) to (255, 1422)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 17,
+				"identifier": "swipeleft"
+			},
+		{
+				"message": "(Duration:\"70.506\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-07 10:02:24 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_D_Game_Play.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-07 10:03:35.336 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:10 Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-07 10:03:35.362 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-07 10:02:24.825 +0530"
+}

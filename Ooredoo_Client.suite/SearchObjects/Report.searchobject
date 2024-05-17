@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		874,
+		1624,
+		149,
+		120
+	],
+	"lastmodifieddate": 1714986419.178,
+	"createddate": 1714986419.178,
+	"name": "Report",
+	"lastfounddate": 1714986453.9790001,
+	"ocrcapturestring": "Report Issue",
+	"lastfoundlocation": [
+		874,
+		1624,
+		149,
+		120
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 52175,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[74,60]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "52176",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "52175",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "Report.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					874,
+					1624,
+					149,
+					120
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "Report Issue"
+			}
+	]
+}

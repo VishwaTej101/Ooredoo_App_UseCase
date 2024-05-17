@@ -1,0 +1,39 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-02 16:45:17.012 +0530"
+			},
+		{
+				"message": "(Duration:\"0.22\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-02 16:45:17 +0530\", Successes:\"0\", TestCase:\"Tests/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-02 16:45:17.255 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_164516.989/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-02 16:45:18.590 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'swipe' -- Execution Time 0:00:00 Tests/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-02 16:45:18.656 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_164516.989/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-02 16:45:21.293 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'swipe' -- Execution Time 0:00:00 Tests/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-02 16:45:21.313 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-02 16:45:17.027 +0530"
+}

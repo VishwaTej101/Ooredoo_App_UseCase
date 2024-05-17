@@ -1,0 +1,51 @@
+{
+	"lastmodifieddate": 1714726881.2550001,
+	"originalcapturelocation": [
+		706,
+		1566,
+		64,
+		100
+	],
+	"createddate": 1714726881.2550001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 65455,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_1",
+					"HotSpot": "[32,50]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"webdriver_port": "65456",
+					"model": "SM-G980F",
+					"manufacturer": "samsung",
+					"device_os": "android",
+					"remote_adb_port": "0",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "65455",
+					"CacheDir": "/data/local/tmp",
+					"android_version": "13",
+					"sdk": "33",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "Lock_level_1.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					706,
+					1566,
+					64,
+					100
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "Lock_level_1"
+}

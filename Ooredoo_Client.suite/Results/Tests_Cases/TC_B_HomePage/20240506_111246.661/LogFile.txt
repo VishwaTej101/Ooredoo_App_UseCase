@@ -1,0 +1,50 @@
+﻿2024-05-06 11:12:46.677 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 11:12:46.857 +0530	imagefound	Cross_button	found at (1032, 450)	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:47.160 +0530	click	Cross_button	at (1032, 450)	3	on_clickeventcollection	Common.script
+2024-05-06 11:12:48.251 +0530	click	package_arrow	at (835, 1232)	3	on_clickeventcollection	Common.script
+2024-05-06 11:12:52.603 +0530	waitfor	(TEXT:"My Existing Package")	found at (314, 374)	5	on_validate	Common.script
+2024-05-06 11:12:52.982 +0530	typetext		[BackButton]	12	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:00.394 +0530	imagefound	Cross_button	Unable to Find Image Cross_button	15	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:00.408 +0530	set		SWIPESPEED = 100	21	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:07.667 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	22	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:07.865 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:14.753 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:14.957 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:21.924 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:22.119 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:26.232 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:26.416 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:30.606 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:30.783 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:34.645 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:34.830 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:38.851 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:39.037 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:44.642 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:44.827 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:50.476 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:50.733 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:54.863 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:55.044 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:59.182 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:13:59.373 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:03.331 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:03.511 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:07.320 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:07.512 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:11.626 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:11.810 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:16.399 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:16.582 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:21.160 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:21.336 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:25.759 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:25.949 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:29.763 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:29.946 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:33.867 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:34.044 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:37.776 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:37.958 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:14:40.987 +0530	EndTestCase		(Duration:"114.291", Errors:"1", Exceptions:"0", StartTime:"2024-05-06 11:12:46 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 11:14:41.038 +0530	ABORTED		Execution Time 0:01:54 Tests/TC_B_HomePage.script

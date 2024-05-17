@@ -1,0 +1,3 @@
+﻿2024-05-03 17:47:45.679 +0530	START		Running Tests/TC_A_Login.script
+2024-05-03 17:47:45.703 +0530	EndTestCase		(Duration:"0.002", Errors:"0", Exceptions:"0", StartTime:"2024-05-03 17:47:45 +0530", Successes:"1", TestCase:"Tests/TC_A_Login.script", Warnings:"0")
+2024-05-03 17:47:45.829 +0530	SUCCESS		Execution Time 0:00:00 Tests/TC_A_Login.script

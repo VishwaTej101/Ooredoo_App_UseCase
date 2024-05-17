@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_B_HomePage_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 15:55:51.268 +0530"
+ tests="1"  failures="2" errors="1" time="74.332000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 15:55:51.268 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests/TC_B_HomePage.script" assertions="1" status="error"  time="74.313">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;Cross_icon_01&quot; within 20.00 seconds -- Execution Time 0:01:14 Tests/TC_B_HomePage.script" />
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;Cross_icon_01&quot; within 20.00 seconds -- Execution Time 0:01:14 Tests/TC_B_HomePage.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;Cross_icon_01&quot; within 20.00 seconds" />
+  </testcase>
+ </testsuite>
+</testsuites>

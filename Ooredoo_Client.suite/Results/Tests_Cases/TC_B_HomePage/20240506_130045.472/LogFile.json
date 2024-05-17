@@ -1,0 +1,140 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 13:00:45.480 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:00:46.305 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 13:00:47.008 +0530",
+				"scriptName": "Common.script",
+				"message": "at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 13:00:48.675 +0530",
+				"scriptName": "Common.script",
+				"message": "at (835, 1232)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 13:01:01.620 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (313, 373)",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:01.868 +0530",
+				"message": "[BackButton]",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 12,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:01.876 +0530",
+				"message": "SWIPESPEED = 3.5",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:08.806 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Report_Issue",
+				"image": "Report_Issue",
+				"handlerLine": 24,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:13.590 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 26,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:20.014 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Report_Issue",
+				"image": "Report_Issue",
+				"handlerLine": 27,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:24.740 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 26,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:31.143 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Report_Issue",
+				"image": "Report_Issue",
+				"handlerLine": 27,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:35.747 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 26,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:43.312 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Report_Issue",
+				"image": "Report_Issue",
+				"handlerLine": 27,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 13:01:46.869 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 26,
+				"identifier": "swipeup"
+			},
+		{
+				"message": "(Duration:\"61.442\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-06 13:00:45 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 13:01:46.932 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:01 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 13:01:46.946 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 13:00:45.487 +0530"
+}

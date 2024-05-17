@@ -1,0 +1,31 @@
+﻿2024-05-07 10:49:18.881 +0530	START		Running Tests_Cases/TC_A_Login.script
+2024-05-07 10:49:19.289 +0530	launchapp		com.ooredoo.selfcare	8	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:30.771 +0530	imagefound	(TEXT:"location")	Unable to Find Image (TEXT:"location") within 2.00 seconds. Text not found.	11	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:42.394 +0530	imagefound	(TEXT:"notifications")	Unable to Find Image (TEXT:"notifications") within 2.00 seconds. Text not found.	16	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:42.786 +0530	click	lang_icon	at (1004, 163)	3	on_clickeventcollection	Common.script
+2024-05-07 10:49:45.933 +0530	click	(TEXT:"ENGLISH")	at (539, 1436)	7	on_clickeventcollection	Common.script
+2024-05-07 10:49:50.261 +0530	click	(TEXT:"MOBILE NUMBER")	at (266, 1283)	26	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:50.993 +0530	typetext		[backspace]	30	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:51.728 +0530	typetext		[backspace]	30	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:52.834 +0530	typetext		959952114410	34	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:53.621 +0530	typetext		[BackButton]	37	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:49:56.451 +0530	click	(TEXT:"NEXT")	at (541, 2158)	7	on_clickeventcollection	Common.script
+2024-05-07 10:49:57.562 +0530	typetext		123456	41	on_launch_app	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:50:02.332 +0530	imagefound	Cross_button	found at (1032, 450)	5	on_check_exisiting_package_home	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:50:03.290 +0530	click	Cross_button	at (1032, 450)	3	on_clickeventcollection	Common.script
+2024-05-07 10:50:04.459 +0530	click	package_arrow	at (832, 1240)	3	on_clickeventcollection	Common.script
+2024-05-07 10:50:15.256 +0530	waitfor	(TEXT:"My Existing Package")	found at (314, 373)	15	on_clickeventcollection	Common.script
+2024-05-07 10:50:17.627 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-07 10:50:20.782 +0530	click	AyanTanOomanji	at (152, 1741)	3	on_clickeventcollection	Common.script
+2024-05-07 10:50:25.031 +0530	waitfor	Cross_icon_01	found at (968, 419)	11	on_clickeventcollection	Common.script
+2024-05-07 10:50:26.082 +0530	click	Cross_icon_01	at (968, 419)	3	on_clickeventcollection	Common.script
+2024-05-07 10:50:28.135 +0530	click	Ayan Tan	at (406, 1701)	3	on_clickeventcollection	Common.script
+2024-05-07 10:50:33.779 +0530	waitfor	(TEXT:"Data")	found at (513, 1341)	15	on_clickeventcollection	Common.script
+2024-05-07 10:50:38.360 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-07 10:50:38.459 +0530	set		SWIPESPEED = 1	5	on_open_omart_home	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:50:48.900 +0530	imagefound	(TEXT:"OMart")	Unable to Find Image (TEXT:"OMart") within 0.00 seconds. Text not found.	6	on_open_omart_home	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:51:09.326 +0530	swipeup	(TEXT:"Ayan Tan")	Swiped up from (672, 997) to (672, 37)	6	on_open_omart_home	CommonUtilites/ApplicationUtilites.script
+2024-05-07 10:51:23.704 +0530	click	(TEXT:"OMart")	at (687, 1324)	7	on_clickeventcollection	Common.script
+2024-05-07 10:52:19.178 +0530	Exception	(TEXT:"Featured Products")	Unable To Find Any Image On Screen "(TEXT:"Featured Products")" within 20.00 seconds. Text not found.	15	on_clickeventcollection	Common.script
+2024-05-07 10:52:19.674 +0530	EndTestCase		(Duration:"180.772", Errors:"1", Exceptions:"1", StartTime:"2024-05-07 10:49:18 +0530", Successes:"0", TestCase:"Tests_Cases/TC_A_Login.script", Warnings:"0")
+2024-05-07 10:52:19.704 +0530	ABORTED		Execution Time 0:03:00 Tests_Cases/TC_A_Login.script

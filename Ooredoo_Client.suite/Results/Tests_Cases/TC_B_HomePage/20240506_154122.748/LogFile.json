@@ -1,0 +1,181 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:41:22.770 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:41:23.208 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:41:24.137 +0530",
+				"scriptName": "Common.script",
+				"message": "at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:41:24.628 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (835, 1232)",
+				"image": "package_arrow",
+				"handlerLine": 7,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:41:25.357 +0530",
+				"scriptName": "Common.script",
+				"message": "at (835, 1232)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 15:41:38.494 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (314, 374)",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:41:41.405 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:41:43.513 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (152, 1743)",
+				"image": "AyanTanOomanji",
+				"handlerLine": 18,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:41:44.743 +0530",
+				"scriptName": "Common.script",
+				"message": "at (152, 1741)",
+				"image": "AyanTanOomanji",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:41:48.652 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (968, 419)",
+				"image": "Cross_icon_01",
+				"handlerLine": 20,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:41:49.604 +0530",
+				"scriptName": "Common.script",
+				"message": "at (968, 419)",
+				"image": "Cross_icon_01",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:42:04.936 +0530",
+				"scriptName": "Common.script",
+				"message": "at (406, 1701)",
+				"image": "Ayan Tan",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:42:10.018 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (512, 1341)",
+				"image": "(TEXT:\"Data\")",
+				"handlerLine": 27,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 15:42:13.341 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (128, 986)",
+				"image": "(TEXT:\"Data\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:42:16.819 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:42:16.831 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 33,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:42:25.324 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 34,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:42:47.284 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Swiped up from (149, 1713) to (149, 753)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 35,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:42:54.358 +0530",
+				"scriptName": "Common.script",
+				"message": "at (687, 1593)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"111.652\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-06 15:41:22 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:43:14.433 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:51 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:43:14.455 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:41:22.780 +0530"
+}

@@ -1,0 +1,58 @@
+{
+	"lastmodifieddate": 1714710391.6100001,
+	"lastfoundlocation": [
+		985,
+		411,
+		73,
+		73
+	],
+	"originalcapturelocation": [
+		985,
+		411,
+		73,
+		73
+	],
+	"createddate": 1714710391.6100001,
+	"lastfounddate": 1714710445.0829999,
+	"testlocationdata": [
+		{
+				"connectionportnum": 59407,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[36,36]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "59408",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "59407",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "Cross_button.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					985,
+					411,
+					73,
+					73
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "Cross_button"
+}

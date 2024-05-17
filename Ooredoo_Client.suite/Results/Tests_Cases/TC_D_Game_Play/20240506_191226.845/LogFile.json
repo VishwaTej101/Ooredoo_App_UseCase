@@ -1,0 +1,96 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 19:12:26.858 +0530"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:12:27.018 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:12:46.819 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:08.349 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped up from (747, 997) to (747, 37)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 13,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:16.390 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:27.807 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped left from (687, 1392) to (255, 1392)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 16,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:42.459 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "found 1 images",
+				"image": "(TEXT:\"Oomanji\")",
+				"handlerLine": 18,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:42.475 +0530",
+				"message": "[[150,848]]",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 20,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:13:42.607 +0530",
+				"message": "at current mouse point (255, 1392)",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 22,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 19:13:49.852 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Common.script",
+				"handlerLine": 7,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"83.134\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 19:12:26 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_D_Game_Play.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 19:13:50.004 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:23 Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 19:13:50.021 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 19:12:26.866 +0530"
+}

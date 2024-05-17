@@ -1,0 +1,55 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_C_Top_Up.script",
+				"identifier": "START",
+				"timestamp": "2024-05-03 17:58:40.088 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-03 17:58:40.900 +0530",
+				"scriptName": "Common.script",
+				"message": "at (326, 2175)",
+				"image": "Top_Up_Icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-03 17:58:55.191 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (224, 618)",
+				"image": "(TEXT:\"VOUCHER CODE\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-03 17:58:58.349 +0530",
+				"scriptName": "Tests/TC_C_Top_Up.script",
+				"message": "at (307, 1088)",
+				"image": "(TEXT:\"ONLINE TOPUP\")",
+				"handlerLine": 11,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-03 17:58:59.370 +0530",
+				"message": "1000",
+				"scriptName": "Tests/TC_C_Top_Up.script",
+				"handlerLine": 13,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"19.806\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-03 17:58:40 +0530\", Successes:\"1\", TestCase:\"Tests/TC_C_Top_Up.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-03 17:58:59.910 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:19 Tests/TC_C_Top_Up.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-03 17:59:00.118 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-03 17:58:40.098 +0530"
+}

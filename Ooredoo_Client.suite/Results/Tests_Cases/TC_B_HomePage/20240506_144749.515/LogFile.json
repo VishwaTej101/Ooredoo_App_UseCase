@@ -1,0 +1,66 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 14:47:49.543 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 14:47:52.778 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button within 2.00 seconds",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 14:47:53.845 +0530",
+				"scriptName": "Common.script",
+				"message": "at (786, 630)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 14:48:36.346 +0530",
+				"scriptName": "Common.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"My Existing Package\")\" within 10.00 seconds. Text not found.",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"47.028\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 14:47:49 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 14:48:36.586 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_144749.515/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 14:48:37.155 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"(TEXT:\"My Existing Package\")\" within 10.00 seconds. Text not found. -- Execution Time 0:00:47 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 14:48:37.168 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_144749.515/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 14:48:37.960 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"(TEXT:\"My Existing Package\")\" within 10.00 seconds. Text not found. -- Execution Time 0:00:47 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 14:48:37.978 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 14:47:49.554 +0530"
+}

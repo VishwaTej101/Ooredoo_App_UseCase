@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_C_Top_Up_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 17:40:25.016 +0530"
+ tests="1"  failures="0" errors="0" time="63.795000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 17:40:25.016 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_C_Top_Up.script" assertions="1" status="error"  time="63.779">
+    <error type="Exception" message="No Text Found On Screen: &quot;(TEXT:&quot;1,000 Ks&quot;)&quot;. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

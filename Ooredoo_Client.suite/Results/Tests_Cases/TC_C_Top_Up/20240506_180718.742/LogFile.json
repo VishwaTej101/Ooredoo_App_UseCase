@@ -1,0 +1,119 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 18:07:18.760 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:07:20.208 +0530",
+				"scriptName": "Common.script",
+				"message": "at (326, 2175)",
+				"image": "Top_Up_Icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 18:07:34.825 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (224, 618)",
+				"image": "(TEXT:\"VOUCHER CODE\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:07:37.505 +0530",
+				"scriptName": "Common.script",
+				"message": "at (232, 1213)",
+				"image": "(TEXT:\"1,000 Ks\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:07:37.630 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 17,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:08:18.787 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Unable to Find Image (TEXT:\"VISA/Master\"). Text not found.",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:08:35.421 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Swiped up from (529, 1211) to (529, 251)",
+				"image": "2000Ks",
+				"handlerLine": 18,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:08:42.873 +0530",
+				"scriptName": "Common.script",
+				"message": "at (428, 1403)",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:08:45.302 +0530",
+				"scriptName": "Common.script",
+				"message": "at (539, 1238)",
+				"image": "(TEXT:\"CONFIRM\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:09:27.701 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"GLOBAL CARD\")\" within 10.00 seconds. Text not found.",
+				"image": "(TEXT:\"GLOBAL CARD\")",
+				"handlerLine": 25,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"129.242\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 18:07:18 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_C_Top_Up.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 18:09:28.022 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_C_Top_Up/20240506_180718.742/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 18:09:28.817 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"(TEXT:\"GLOBAL CARD\")\" within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 18:09:28.909 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_C_Top_Up/20240506_180718.742/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 18:09:29.736 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"(TEXT:\"GLOBAL CARD\")\" within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 18:09:29.749 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 18:07:18.773 +0530"
+}

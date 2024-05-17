@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_E_Mpisen_Nav.script",
+				"identifier": "START",
+				"timestamp": "2024-05-03 15:38:23.123 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-03 15:38:30.441 +0530",
+				"scriptName": "Common.script",
+				"message": "at (972, 2225)",
+				"image": "(TEXT:\"M-Pitesan\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_e_mpisen_nav",
+				"timestamp": "2024-05-03 15:38:37.932 +0530",
+				"scriptName": "Tests/TC_E_Mpisen_Nav.script",
+				"message": "found at (991, 572)",
+				"image": "M_pit_Cross",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_e_mpisen_nav",
+				"timestamp": "2024-05-03 15:38:38.180 +0530",
+				"scriptName": "Tests/TC_E_Mpisen_Nav.script",
+				"message": "at (991, 572)",
+				"image": "M_pit_Cross",
+				"handlerLine": 6,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"15.271\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-03 15:38:23 +0530\", Successes:\"1\", TestCase:\"Tests/TC_E_Mpisen_Nav.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-03 15:38:38.406 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:15 Tests/TC_E_Mpisen_Nav.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-03 15:38:38.679 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-03 15:38:23.132 +0530"
+}

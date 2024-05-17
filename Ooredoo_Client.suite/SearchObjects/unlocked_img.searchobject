@@ -1,0 +1,53 @@
+{
+	"lastmodifieddate": 1715690943.0089998,
+	"ocrcapturestring": "F",
+	"originalcapturelocation": [
+		305,
+		1394,
+		88,
+		92
+	],
+	"createddate": 1715690943.0089998,
+	"testlocationdata": [
+		{
+				"connectionportnum": 63764,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Tolerance": "_30",
+					"HotSpot": "[44,46]",
+					"Scale": "    1",
+					"Discrepancy": "_0",
+					"SearchType": "Adaptive to Image"
+				},
+				"sutinfo": {
+					"webdriver_port": "63765",
+					"model": "SM-G980F",
+					"manufacturer": "samsung",
+					"device_os": "android",
+					"remote_adb_port": "0",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "63764",
+					"CacheDir": "/data/local/tmp",
+					"android_version": "13",
+					"sdk": "33",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "unlocked_img.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					305,
+					1394,
+					88,
+					92
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "F"
+			}
+	],
+	"name": "unlocked_img"
+}

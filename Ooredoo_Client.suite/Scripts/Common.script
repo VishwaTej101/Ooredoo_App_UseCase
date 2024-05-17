@@ -1,0 +1,252 @@
+﻿
+//firefox browser in cloud
+
+to handle Browser_Firefox
+	TypeText altKey, f2
+	TypeText "firefox"
+	TypeText return
+end Browser_Firefox
+
+// launch browser 
+
+to launchURL browser,url,varlogos
+	set global browser to browser
+	typetext windowskey,"r"
+	
+	typetext url,returnkey
+	
+	//waitfor 20, "logos"
+	assert that ImageFound(20,varlogos)
+end launchURL
+
+//Close browser
+
+to closeBrowser
+	typetext controlkey,shiftkey,"w"
+	wait 2
+end closeBrowser
+
+
+//clear history
+
+to handle Clear_history
+	//clear history firefox
+	
+	typetext controlKey, shiftKey, deleteKey
+	
+	put EveryImageLocation(text:"Clear data") into clear_data_Btn
+	
+	click item 1 of clear_data_Btn
+	
+end clear_history
+
+/// close tab
+to closeTab expectation
+	typetext controlkey,"w"
+	if expectation is not empty
+		navigate[],(expectation)
+	end if 
+end closeTab
+
+to back expectation
+	typetext altkey,leftarrow
+	if expectation is not empty
+		navigate[],(expectation)
+	end if 
+	wait 3
+end back
+
+// scroll to some element
+to scrollTo toFind, SR
+	// Images 
+	set the remoteWorkInterval to 0.1
+	if file (suiteinfo().imagesFolder&"/"&toFind&".png") exists
+		repeat until imagefound(0,image:toFind,searchRectangle:SR)
+			ScrollWheelDown 5
+			wait 1
+			if repeatindex() > 10 then 
+				logerror "Cannot find"&&toFind
+				Exit repeat
+			end if
+		end repeat
+	else
+		// OCR
+		repeat until imagefound(waitfor:0,text:toFind,searchRectangle:SR, ignoreNewlines:on, ignorespaces:on)
+			log the textstyle
+			ScrollWheelDown 6 
+			wait 1
+			if repeatindex() > 10 then 
+				logerror "Cannot find"&&toFind
+				Exit repeat
+			end if
+		end repeat
+	end if
+	set the remoteWorkInterval to 0.4
+	return foundimageinfo().imageRectangle 
+end scrollTo
+
+to navigate action, SR, SR2, expectation
+	// do something
+	if action is not empty
+		click the center of common.scrollTo(action, SR)
+		wait 2
+	end if 
+	// check something
+	if expectation is not empty
+		if file (suiteinfo().imagesFolder&"/"&expectation&".png") exists
+			waitfor 10, image:expectation,searchRectangle:SR2
+		else
+			waitfor 10,text:expectation,searchRectangle:SR2
+		end if 
+		moveto (bottomCenter of the RemoteScreenRectangle- [0,300])
+	end if 
+	wait 1
+	// could add an assert here as well for the text / image. still the if would be required. 
+end navigate
+
+
+to textEntry label,input, area:(global browser), offset:(config().dataEntry.textBoxOffset)
+	//if area is empty then set area to config().SUT.(global browser)
+	click text: label, hotspot: offset,  searchRectangle:config().SUT.(area)
+	wait 0.5
+	typetext controlkey,"a"
+	typetext input
+	wait 0.3
+end textEntry
+
+# to perform click operation over application
+to clickEventCollection myObject,expOutcome
+	if file (suiteinfo().imagesFolder&"/"&myObject&".png") exists then
+		Click {image:myObject, WaitFor:Universal pageWait}
+	else if folder (suiteinfo().imagesFolder&"/"&myObject) exists then
+		Click {image:myObject, WaitFor:Universal pageWait}
+	else
+		Click {text:myObject, WaitFor:Universal pageWait, IgnoreNewlines:"Yes", IgnoreSpaces:"Yes", TrimWhitespace:"Yes",caseSensitive:true}
+	end if
+	if (expOutcome is not empty) then
+		if file (suiteinfo().imagesFolder&"/"&expOutcome&".png") exists then
+			WaitFor Universal pageWait, {image:expOutcome}
+		else if folder (suiteinfo().imagesFolder&"/"&expOutcome) exists then
+			WaitFor Universal pageWait, {image:expOutcome}
+		else
+			WaitFor Universal pageWait, {text:expOutcome, IgnoreNewlines:"Yes", IgnoreSpaces:"Yes", TrimWhitespace:"Yes"}
+		end if
+	end if
+end clickEventCollection
+
+to validate expectation, area:(global browser)
+	if file (suiteinfo().imagesFolder&"/"&expectation&".png") exists
+		waitfor 10, image:expectation,searchRectangle:config().SUT.(area)
+	else
+		waitfor 10,text:expectation,searchRectangle:config().SUT.(area)
+	end if 
+end validate
+
+(*validate "Login", "Login"*)
+
+to doubleclickElementEntry label,input, SR, offset:(config().dataEntry.textBoxOffset)
+	doubleclick CenterLeft of scrollTo(label, SR) + offset
+	wait 0.5
+	typetext input
+	wait 0.3
+end doubleclickElementEntry
+
+to hiddenTextEntry label,input, SR, offset:(config().dataEntry.textBoxOffset)
+	click CenterLeft of scrollTo(label, SR) + offset
+	wait 0.5
+	typetext controlkey,"a"
+	typehiddentext input
+	wait 0.3
+end hiddenTextEntry
+
+to checkBox label, SR, offset:(config().dataEntry.checkBoxOffset)
+	click the CenterLeft of scrollTo(label, SR) + offset
+	wait 0.5
+end checkBox
+
+(*to dropDown label,input, SR, offset:(config().dataEntry.DropBoxOffset), selectionOffset:(config().dataEntry.DropBoxSelectionOffset)
+	click the Center of scrollTo(label, SR) + offset
+	wait 0.5
+	click the Center of scrollTo(input, SR) + selectionOffset
+	wait 0.3
+end dropDown*)
+
+to dropDown label, input, offset:(config().dataEntry.DropBoxOffset)
+
+	log offset
+	
+	click the center of scrollTo(label) + offset
+	wait 0.5
+	clickElement input
+end dropDown
+
+
+
+to searchTextEntry label,input, SR, offset:(config().dataEntry.SearchBoxOffset)
+	click CenterLeft of scrollTo(label, SR) + offset
+	wait 0.5
+	typetext controlkey,"a"
+	typetext input
+	wait 0.3
+end searchTextEntry
+
+to subMenuSelect submenu, selection, SR, SR2, SR3, expectation
+	common.navigate submenu, SR, SR2
+	wait 0.3
+	common.navigate selection, SR2, SR3, expectation
+end subMenuSelect
+
+to LaunchApp path,app:global browser
+	set global browser to app
+	typetext windowskey,"r"
+	typetext path,returnkey
+	//waitfor 20, "logos"
+	assert that ImageFound(20,image:logos,searchRectangle:(config().SUT.(global browser)))
+	typetext windowskey, upArrow // maximize window on windows
+end LaunchApp
+
+to CloseApp
+	//typetext controlkey,shiftkey,"w"
+	typetext altkey, f4
+	wait 2
+end CloseApp
+
+to AppSwitcher varlogos:logos,app:global browser
+	set global app to app
+	typetext altkey, tabkey
+	assert that ImageFound(10,image:varlogos,searchRectangle:(config().SUT.(global browser)))
+end AppSwitcher
+
+to connectSUT sutName
+	Try
+		if sutName is not empty then
+			Connect sutName
+			
+		else 
+			LogError "Provide sutName"
+			Throw theException
+		end if
+	Catch theException
+		"ErrorMessageHandler".userFriendlymessage theException
+	End try
+end connectSUT
+
+to checkSUTconnected
+	repeat 2 minutes
+		if not Connected of ConnectionInfo() then
+			Logwarning "SUT does not seem to be connected.Trying again in 10seconds."		
+			wait 10	
+		else
+			Log !"[[my name]]: SUT connected!"
+			Exit Repeat
+		end if
+	end repeat
+	
+	Assert Connected of ConnectionInfo() with error !"[[my name]]: Checking SUT connected"
+	Assert RemoteScreenSize() is [1920,1080] with error !"[[my name]]: Remote Screen Size is [[RemoteScreenSize()]]"
+	Wait 10
+	
+end checkSUTconnected
+
+
+

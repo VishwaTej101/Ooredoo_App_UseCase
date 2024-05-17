@@ -1,0 +1,46 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-07 10:47:28.788 +0530"
+			},
+		{
+				"handlerName": "on_launch_app",
+				"timestamp": "2024-05-07 10:47:29.223 +0530",
+				"message": "com.ooredoo.selfcare",
+				"scriptName": "CommonUtilites/ApplicationUtilites.script",
+				"handlerLine": 8,
+				"identifier": "launchapp"
+			},
+		{
+				"handlerName": "on_launch_app",
+				"timestamp": "2024-05-07 10:47:32.062 +0530",
+				"scriptName": "CommonUtilites/ApplicationUtilites.script",
+				"message": "Unable to Find Image (TEXT:\"location\") within 2.00 seconds. Text not found.",
+				"image": "(TEXT:\"location\")",
+				"handlerLine": 11,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_launch_app",
+				"timestamp": "2024-05-07 10:47:34.964 +0530",
+				"scriptName": "CommonUtilites/ApplicationUtilites.script",
+				"message": "Unable to Find Image (TEXT:\"notifications\") within 2.00 seconds. Text not found.",
+				"image": "(TEXT:\"notifications\")",
+				"handlerLine": 16,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"13.454\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-07 10:47:28 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-07 10:47:42.252 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:13 Tests_Cases/TC_A_Login.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-07 10:47:42.273 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-07 10:47:28.796 +0530"
+}

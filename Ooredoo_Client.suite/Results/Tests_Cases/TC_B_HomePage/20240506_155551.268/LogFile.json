@@ -1,0 +1,93 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:55:51.281 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:56:02.042 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button",
+				"image": "Cross_button",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:56:02.611 +0530",
+				"scriptName": "Common.script",
+				"message": "at (832, 1240)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:56:18.627 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (314, 374)",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 15,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:56:21.303 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:56:23.616 +0530",
+				"scriptName": "Common.script",
+				"message": "at (152, 1937)",
+				"image": "AyanTanOomanji",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:57:05.211 +0530",
+				"scriptName": "Common.script",
+				"message": "Unable To Find Any Image On Screen \"Cross_icon_01\" within 20.00 seconds",
+				"image": "Cross_icon_01",
+				"handlerLine": 11,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"74.313\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 15:55:51 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:57:05.602 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_155551.268/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 15:57:06.344 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"Cross_icon_01\" within 20.00 seconds -- Execution Time 0:01:14 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 15:57:06.360 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_155551.268/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 15:57:07.659 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: waitfor Error - Unable To Find Any Image On Screen \"Cross_icon_01\" within 20.00 seconds -- Execution Time 0:01:14 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 15:57:07.669 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:55:51.287 +0530"
+}

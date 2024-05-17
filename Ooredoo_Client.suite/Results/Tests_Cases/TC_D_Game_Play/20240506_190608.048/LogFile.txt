@@ -1,0 +1,7 @@
+﻿2024-05-06 19:06:08.065 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:06:08.308 +0530	set		SWIPESPEED = 1	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:06:23.682 +0530	imagefound	(TEXT:"OMart")	found at (397, 1968)	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:06:31.702 +0530	set		SWIPESPEED = 1	15	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:08:11.353 +0530	Exception	(TEXT:"OMart")	No Image Found On Screen: "(TEXT:"OMart")"	16	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:08:11.650 +0530	EndTestCase		(Duration:"123.571", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 19:06:08 +0530", Successes:"0", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-06 19:08:11.682 +0530	ABORTED		Execution Time 0:02:03 Tests_Cases/TC_D_Game_Play.script

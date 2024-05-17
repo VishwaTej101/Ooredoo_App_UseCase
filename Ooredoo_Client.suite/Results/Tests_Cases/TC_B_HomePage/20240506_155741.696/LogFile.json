@@ -1,0 +1,154 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:57:41.713 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:57:47.206 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button",
+				"image": "Cross_button",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:57:47.955 +0530",
+				"scriptName": "Common.script",
+				"message": "at (832, 1240)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:02.768 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (314, 374)",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 15,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:05.373 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:08.322 +0530",
+				"scriptName": "Common.script",
+				"message": "at (152, 1741)",
+				"image": "AyanTanOomanji",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:12.304 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (968, 419)",
+				"image": "Cross_icon_01",
+				"handlerLine": 11,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:13.532 +0530",
+				"scriptName": "Common.script",
+				"message": "at (968, 419)",
+				"image": "Cross_icon_01",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:14.927 +0530",
+				"scriptName": "Common.script",
+				"message": "at (406, 1701)",
+				"image": "Ayan Tan",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:18.340 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (474, 1341)",
+				"image": "(TEXT:\"Data\")",
+				"handlerLine": 15,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:58:22.625 +0530",
+				"scriptName": "Common.script",
+				"message": "at (108, 2225)",
+				"image": "(TEXT:\"Home\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:58:22.648 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 23,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:58:31.514 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 24,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:58:52.721 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Swiped up from (814, 997) to (814, 37)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 24,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:59:02.759 +0530",
+				"scriptName": "Common.script",
+				"message": "at (687, 1566)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:59:36.001 +0530",
+				"scriptName": "Common.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"Featured Products\")\" within 20.00 seconds. Text not found.",
+				"image": "(TEXT:\"Featured Products\")",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"114.589\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 15:57:41 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:59:36.313 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:54 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:59:36.330 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:57:41.721 +0530"
+}

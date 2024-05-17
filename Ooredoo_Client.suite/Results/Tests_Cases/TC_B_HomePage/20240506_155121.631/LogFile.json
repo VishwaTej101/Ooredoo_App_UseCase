@@ -1,0 +1,46 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:51:21.664 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:51:33.335 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:51:34.029 +0530",
+				"scriptName": "Common.script",
+				"message": "at (783, 632)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:51:50.835 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Common.script",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"29.204\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 15:51:21 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:51:50.910 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:29 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:51:50.933 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:51:21.682 +0530"
+}

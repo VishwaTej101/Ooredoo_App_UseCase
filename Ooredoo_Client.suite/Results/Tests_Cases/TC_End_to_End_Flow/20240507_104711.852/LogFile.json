@@ -1,0 +1,39 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-07 10:47:11.864 +0530"
+			},
+		{
+				"message": "(Duration:\"0.292\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-07 10:47:11 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-07 10:47:12.168 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_A_Login/20240507_104711.852/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-07 10:47:12.739 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage: ERROR: 'run' was called as a Command, but is only available as a Function -- Execution Time 0:00:00 Tests_Cases/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-07 10:47:12.754 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_A_Login/20240507_104711.852/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-07 10:47:13.595 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "STUnknownMessage: ERROR: 'run' was called as a Command, but is only available as a Function -- Execution Time 0:00:00 Tests_Cases/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-07 10:47:13.604 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-07 10:47:11.875 +0530"
+}

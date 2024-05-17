@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_A_Login_script" package="Ooredoo_Client.suite" timestamp="2024-05-02 18:53:38.387 +0530"
+ tests="1"  failures="2" errors="0" time="1.210000">
+  <properties>
+   <property name="RunDate" value="2024-05-02 18:53:38.387 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests/TC_A_Login.script" assertions="1" status="failure"  time="1.183">
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Command: &apos;clickelement&apos; -- Execution Time 0:00:01 Tests/TC_A_Login.script" />
+    <failure type="FAILURE" message="STUnknownMessage: ERROR: No Such Command: &apos;clickelement&apos; -- Execution Time 0:00:01 Tests/TC_A_Login.script" />
+  </testcase>
+ </testsuite>
+</testsuites>

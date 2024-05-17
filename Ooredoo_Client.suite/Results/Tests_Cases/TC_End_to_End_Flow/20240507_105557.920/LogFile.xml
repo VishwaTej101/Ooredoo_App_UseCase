@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_A_Login_script" package="Ooredoo_Client.suite" timestamp="2024-05-07 10:55:57.920 +0530"
+ tests="1"  failures="0" errors="0" time="130.780000">
+  <properties>
+   <property name="RunDate" value="2024-05-07 10:55:57.920 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_A_Login.script" assertions="1" status="error"  time="130.751">
+    <error type="Exception" message="Searching For Image: OCR Error: Operation was aborted" />
+  </testcase>
+ </testsuite>
+</testsuites>

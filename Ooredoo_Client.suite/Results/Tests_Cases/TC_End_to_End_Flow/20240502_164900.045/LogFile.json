@@ -1,0 +1,28 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-02 16:49:00.056 +0530"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-02 16:49:00.616 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"message": "(Duration:\"0.584\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-02 16:49:00 +0530\", Successes:\"1\", TestCase:\"Tests/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-02 16:49:00.656 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 Tests/TC_A_Login.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-02 16:49:00.828 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-02 16:49:00.068 +0530"
+}

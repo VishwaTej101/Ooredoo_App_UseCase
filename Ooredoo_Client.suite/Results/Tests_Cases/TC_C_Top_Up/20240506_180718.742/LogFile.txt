@@ -1,0 +1,15 @@
+﻿2024-05-06 18:07:18.760 +0530	START		Running Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:07:20.208 +0530	click	Top_Up_Icon	at (326, 2175)	3	on_clickeventcollection	Common.script
+2024-05-06 18:07:34.825 +0530	waitfor	(TEXT:"VOUCHER CODE")	found at (224, 618)	5	on_validate	Common.script
+2024-05-06 18:07:37.505 +0530	click	(TEXT:"1,000 Ks")	at (232, 1213)	7	on_clickeventcollection	Common.script
+2024-05-06 18:07:37.630 +0530	set		SWIPESPEED = 1	17	on_tc_c_top_up	Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:08:18.787 +0530	imagefound	(TEXT:"VISA/Master")	Unable to Find Image (TEXT:"VISA/Master"). Text not found.	18	on_tc_c_top_up	Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:08:35.421 +0530	swipeup	2000Ks	Swiped up from (529, 1211) to (529, 251)	18	on_tc_c_top_up	Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:08:42.873 +0530	click	(TEXT:"VISA/Master")	at (428, 1403)	7	on_clickeventcollection	Common.script
+2024-05-06 18:08:45.302 +0530	click	(TEXT:"CONFIRM")	at (539, 1238)	7	on_clickeventcollection	Common.script
+2024-05-06 18:09:27.701 +0530	Exception	(TEXT:"GLOBAL CARD")	Unable To Find Any Image On Screen "(TEXT:"GLOBAL CARD")" within 10.00 seconds. Text not found.	25	on_tc_c_top_up	Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:09:28.022 +0530	EndTestCase		(Duration:"129.242", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 18:07:18 +0530", Successes:"0", TestCase:"Tests_Cases/TC_C_Top_Up.script", Warnings:"0")
+2024-05-06 18:09:28.817 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_C_Top_Up/20240506_180718.742/Screen_Error.png	CapturedErrorScreenshot	833EF0C2-2BD5-8404-4C0F-82B2116CD76C
+2024-05-06 18:09:28.909 +0530	FAILURE	Screen_Error.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"GLOBAL CARD")" within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script
+2024-05-06 18:09:29.736 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_C_Top_Up/20240506_180718.742/Screen_Error_Web.png	CapturedWebErrorScreenshot	11C7D00A-EA99-B707-4AA7-E7A50CEDE26D
+2024-05-06 18:09:29.749 +0530	FAILURE	Screen_Error_Web.png	Image Not Found: waitfor Error - Unable To Find Any Image On Screen "(TEXT:"GLOBAL CARD")" within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script

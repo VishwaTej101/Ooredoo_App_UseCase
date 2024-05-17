@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running CommonUtilites/ApplicationUtilites.script",
+				"identifier": "START",
+				"timestamp": "2024-05-08 10:56:48.822 +0530"
+			},
+		{
+				"message": "(Duration:\"0.397\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-08 10:56:48 +0530\", Successes:\"1\", TestCase:\"CommonUtilites/ApplicationUtilites.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-08 10:56:49.241 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:00 CommonUtilites/ApplicationUtilites.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-08 10:56:49.403 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-08 10:56:48.837 +0530"
+}

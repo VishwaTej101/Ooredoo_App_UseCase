@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_B_HomePage_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 15:38:41.569 +0530"
+ tests="1"  failures="2" errors="1" time="0.890000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 15:38:41.569 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests/TC_B_HomePage.script" assertions="1" status="error"  time="0.864">
+    <failure type="FAILURE" message="Image Not Found: imagefound Error - Image Property List did not contain &quot;ImageName&quot; property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script" />
+    <failure type="FAILURE" message="Image Not Found: imagefound Error - Image Property List did not contain &quot;ImageName&quot; property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script" />
+    <error type="Exception" message="Image Property List did not contain &quot;ImageName&quot; property" />
+  </testcase>
+ </testsuite>
+</testsuites>

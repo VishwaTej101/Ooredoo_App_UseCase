@@ -1,0 +1,152 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 18:18:20.955 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:18:22.436 +0530",
+				"scriptName": "Common.script",
+				"message": "at (326, 2175)",
+				"image": "Top_Up_Icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 18:18:37.661 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (224, 618)",
+				"image": "(TEXT:\"VOUCHER CODE\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:18:39.510 +0530",
+				"scriptName": "Common.script",
+				"message": "at (232, 1213)",
+				"image": "(TEXT:\"1,000 Ks\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:18:39.557 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 17,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:19:19.944 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Unable to Find Image (TEXT:\"VISA/Master\"). Text not found.",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:19:35.753 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Swiped up from (529, 1211) to (529, 251)",
+				"image": "2000Ks",
+				"handlerLine": 18,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:19:48.155 +0530",
+				"scriptName": "Common.script",
+				"message": "at (428, 1256)",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:19:51.194 +0530",
+				"scriptName": "Common.script",
+				"message": "at (539, 1238)",
+				"image": "(TEXT:\"CONFIRM\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:19:58.874 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "found at (205, 816)",
+				"image": "(TEXT:\"GLOBAL CARD\")",
+				"handlerLine": 25,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:20:00.979 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "at (287, 1169)",
+				"image": "(TEXT:\"CARD NUMBER\")",
+				"handlerLine": 27,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:20:02.482 +0530",
+				"message": "1111111111111111",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 29,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:20:05.848 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "at (289, 1406)",
+				"image": "(TEXT:\"EMAIL ADDRESS\")",
+				"handlerLine": 31,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:20:06.980 +0530",
+				"message": "test@test.com",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 33,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:20:10.441 +0530",
+				"scriptName": "Common.script",
+				"message": "at (665, 1349)",
+				"image": "(TEXT:\"CONTINUE PAYMENT\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:20:13.321 +0530",
+				"scriptName": "Common.script",
+				"message": "at (220, 1794)",
+				"image": "CANCEL_Btn",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"message": "(Duration:\"113.943\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-06 18:18:20 +0530\", Successes:\"1\", TestCase:\"Tests_Cases/TC_C_Top_Up.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 18:20:14.920 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:53 Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-06 18:20:15.731 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 18:18:20.973 +0530"
+}

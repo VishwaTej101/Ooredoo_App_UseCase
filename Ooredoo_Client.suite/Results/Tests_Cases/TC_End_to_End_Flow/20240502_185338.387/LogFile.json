@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-02 18:53:38.399 +0530"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-02 18:53:39.327 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"message": "(Duration:\"1.183\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-02 18:53:38 +0530\", Successes:\"0\", TestCase:\"Tests/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-02 18:53:39.600 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_185338.387/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-02 18:53:41.865 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'clickelement' -- Execution Time 0:00:01 Tests/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-02 18:53:41.876 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_185338.387/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-02 18:53:44.311 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "STUnknownMessage: ERROR: No Such Command: 'clickelement' -- Execution Time 0:00:01 Tests/TC_A_Login.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-02 18:53:44.322 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-02 18:53:38.408 +0530"
+}

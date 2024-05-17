@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		395,
+		1144,
+		203,
+		155
+	],
+	"lastmodifieddate": 1715147817.645,
+	"createddate": 1715147817.645,
+	"name": "OomanjiGame",
+	"lastfounddate": 1715757392.987,
+	"ocrcapturestring": "Oomanji Game",
+	"lastfoundlocation": [
+		784,
+		1145,
+		203,
+		155
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 50829,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[101,77]",
+					"Tolerance": "_66",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "50831",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "50829",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "OomanjiGame.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "Mobile Device",
+				"capturerect": [
+					395,
+					1144,
+					203,
+					155
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "Oomanji Game"
+			}
+	]
+}

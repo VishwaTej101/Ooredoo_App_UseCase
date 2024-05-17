@@ -1,0 +1,6 @@
+﻿2024-05-06 12:27:20.453 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 12:27:26.739 +0530	imagefound	Cross_button	Unable to Find Image Cross_button	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 12:27:27.283 +0530	click	package_arrow	at (786, 630)	3	on_clickeventcollection	Common.script
+2024-05-06 12:27:59.073 +0530	Exception	(TEXT:"My Existing Package")	Unable To Find Any Image On Screen "(TEXT:"My Existing Package")" within 10.00 seconds. Text not found.	5	on_validate	Common.script
+2024-05-06 12:27:59.379 +0530	EndTestCase		(Duration:"38.911", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 12:27:20 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 12:27:59.410 +0530	ABORTED		Execution Time 0:00:38 Tests/TC_B_HomePage.script

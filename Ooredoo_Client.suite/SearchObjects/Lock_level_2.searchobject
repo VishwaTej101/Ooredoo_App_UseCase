@@ -1,0 +1,96 @@
+{
+	"lastmodifieddate": 1714727087.533,
+	"lastfoundlocation": [
+		706,
+		1566,
+		64,
+		100
+	],
+	"originalcapturelocation": [
+		706,
+		1566,
+		64,
+		100
+	],
+	"createddate": 1714727062.3600001,
+	"lastfounddate": 1715000871.7920001,
+	"testlocationdata": [
+		{
+				"connectionportnum": 65455,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,50]",
+					"Tolerance": 6,
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "65456",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "65455",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "Lock_level_1.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					706,
+					1566,
+					64,
+					100
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			},
+		{
+				"connectionportnum": 65455,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[32,50]",
+					"Tolerance": 11,
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "65456",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "65455",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "Lock_level_1.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					706,
+					1566,
+					64,
+					100
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "Lock_level_2"
+}

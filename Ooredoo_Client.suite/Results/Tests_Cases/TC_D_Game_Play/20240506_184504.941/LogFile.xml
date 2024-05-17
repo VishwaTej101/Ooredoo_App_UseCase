@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_D_Game_Play_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 18:45:04.941 +0530"
+ tests="1"  failures="2" errors="1" time="139.612000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 18:45:04.941 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_D_Game_Play.script" assertions="1" status="error"  time="139.584">
+    <failure type="FAILURE" message="Image Not Found: swipeleft Error - No Image Found On Screen: &quot;(TEXT:&quot;OMart&quot;)&quot; -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script" />
+    <failure type="FAILURE" message="Image Not Found: swipeleft Error - No Image Found On Screen: &quot;(TEXT:&quot;OMart&quot;)&quot; -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script" />
+    <error type="Exception" message="No Image Found On Screen: &quot;(TEXT:&quot;OMart&quot;)&quot;" />
+  </testcase>
+ </testsuite>
+</testsuites>

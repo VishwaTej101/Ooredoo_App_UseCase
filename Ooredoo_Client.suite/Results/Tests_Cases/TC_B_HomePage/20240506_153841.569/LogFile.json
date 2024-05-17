@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:38:41.588 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:38:41.811 +0530",
+				"message": "Image Property List did not contain \"ImageName\" property",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"handlerLine": 3,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"0.864\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 15:38:41 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:38:42.462 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_153841.569/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 15:38:44.091 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: imagefound Error - Image Property List did not contain \"ImageName\" property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 15:38:44.106 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_153841.569/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 15:38:45.002 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: imagefound Error - Image Property List did not contain \"ImageName\" property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 15:38:45.017 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:38:41.596 +0530"
+}

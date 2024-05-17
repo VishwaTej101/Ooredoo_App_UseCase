@@ -1,0 +1,231 @@
+﻿
+to launch_App
+
+	(*Connect "Mobile Device"*)
+	
+	Connect {
+		name:"Mobile Device",
+		type:"Mobile Device",
+		deviceId: "RF8N315319K",
+	}
+	
+	(*log ConnectionInfo()*)
+	
+	//to find the package of the app run the below command
+	(*log applist()*)
+	
+	//give package path 
+	LaunchApp "com.ooredoo.selfcare"
+	
+end launch_App
+
+to handle select_language
+
+	//execption handling pop1
+	if ImageFound(2,text:"location") then 
+		click text:"While using the app"
+	end if
+	
+	//exception handling pop2
+	if ImageFound(2,text:"notifications") then
+		put EveryImageLocation(text:"Allow") into val
+		click item 2 of val
+	end if
+	
+	Common.clickEventCollection "lang_icon"
+	
+	Common.clickEventCollection "ENGLISH"
+	
+end select_language
+
+to handle enter_phone_number
+
+	Click text:"MOBILE NUMBER", hotspot:[210,140]
+
+
+	Repeat 2 times
+		typetext backspace
+	End repeat
+	
+	wait 1
+	typetext "959952114410"
+	
+	//to hide keyboard for next method
+	typetext backButton
+	
+	common.clickEventCollection "NEXT"
+end enter_phone_number
+
+to handle enter_otp
+	wait 2
+	typetext "123456"
+end enter_otp
+
+
+
+
+to check_exisiting_Package_home
+	set Universal pageWait to 20
+	
+	//Handling pop_up1
+	if ImageFound(image:"Cross_button",waitfor:05) then Common.clickEventCollection "Cross_button"
+	
+	//packages page
+	Common.clickEventCollection "package_arrow", "My Existing Package"
+	if ImageFound("Black_Cross_btn") then
+		common.clickEventCollection "Black_Cross_btn"
+	end if
+	Common.clickEventCollection "Home"
+	
+end check_exisiting_Package_home
+
+
+to open_ayanTanOomanji
+
+	wait 2
+	
+	//Icon_1
+	Common.clickEventCollection  "AyanTanOomanji", "Cross_icon_01"
+	Common.clickEventCollection "Cross_icon_01"
+	
+end open_ayanTanOomanji
+
+to open_Ayan_Tan
+
+	//icon_2
+	
+	Common.clickEventCollection "Ayan Tan", "Data"
+	Common.clickEventCollection "Home"
+	
+	
+end open_Ayan_Tan
+
+to open_OMart_Home
+
+	//icon_3
+	set the SwipeSpeed to 1
+	wait 2
+	if not ImageFound(0,text:"OMart") then Swipeup text:"Ayan Tan"	
+	wait 7
+	set the usabilityMode to true
+	Common.clickEventCollection "OMart","Featured Products"
+	set the usabilityMode to false
+	typetext backButton
+	
+	
+end open_OMart_Home
+
+to Enter_amount
+	Common.clickEventCollection "Top_Up_Icon"
+	
+	Common.validate "VOUCHER CODE"
+	
+	Common.clickEventCollection "1,000 Ks"
+	
+end Enter_amount
+
+to check_payment_options
+
+	set the SwipeSpeed to 1
+	set the usabilityMode to true
+	if not ImageFound(text:"VISA/Master") then Swipeup "2000Ks"	
+	
+	wait 7
+	Common.clickEventCollection "VISA/Master"
+	set the usabilityMode to false
+	
+	
+	Common.clickEventCollection "CONFIRM"
+end check_payment_options
+
+to enter_card_details
+	Waitfor 10, text:"GLOBAL CARD"
+	
+	Click text:"CARD NUMBER", hotspot:[210,140]
+
+	typetext "1111111111111111"
+	
+	Click text:"EMAIL ADDRESS", hotspot:[210,140]
+
+	typetext "test@test.com"
+	
+	Common.clickEventCollection "CONTINUE PAYMENT"
+	
+	Common.clickEventCollection "CANCEL_Btn"
+	
+	Common.clickEventCollection "OK_Btn"
+	
+	Common.clickEventCollection "Home"
+	
+end enter_card_details
+
+
+to start_game
+	set the SwipeSpeed to 1
+	set the usabilityMode to true
+	if not ImageFound(0,text:"OMart") then Swipeup text:"Ayan Tan"
+	wait 8
+	set the swipeSpeed to 1
+	wait 1
+	SwipeLeft text:"OMart"
+	wait 7
+	Common.clickEventCollection "OomanjiGame"
+	Common.clickEventCollection "PLAY NOW"
+	
+end start_game
+
+
+to finish_game
+	Common.clickEventCollection "unlocked_img"
+	
+	if not ImageFound("unlocked_img") then 
+		common.clickEventCollection "Level_2"
+	end if
+	
+	if ImageFound(text:"Level Locked") then
+		Common.clickEventCollection "Buy Pack to Play"
+		Common.clickEventCollection "Home"
+	end if
+	set the usabilityMode to false
+	wait 5
+	typetext backButton
+end finish_game
+
+
+
+to mipsen_nav_OTP
+
+	wait 3
+	
+	(*	if ImageFound("M_pit_Cross") then
+		click "M_pit_Cross"
+	end if*)
+	
+	Common.clickEventCollection "M-Pitesan"
+	wait 5
+	if ImageFound("Black_Cross_btn") then
+		wait 2
+		Common.clickEventCollection "Black_Cross_btn"
+	end if
+	
+	Common.clickEventCollection "NEXT"
+	
+	Click text:"OTP sent to 09952114410", hotspot:[26,293]
+
+	typetext "12345"
+	
+	
+	
+end mipsen_nav_OTP
+
+to click_next
+
+	Common.clickEventCollection "NEXT"
+	
+	
+	Common.clickEventCollection "ok_red_Btn"
+	
+	Common.clickEventCollection "Home"
+	
+	
+end click_next

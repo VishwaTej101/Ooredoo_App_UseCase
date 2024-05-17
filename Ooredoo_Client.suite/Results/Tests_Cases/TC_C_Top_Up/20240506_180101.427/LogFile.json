@@ -1,0 +1,91 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 18:01:01.453 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:01:02.752 +0530",
+				"scriptName": "Common.script",
+				"message": "at (326, 2175)",
+				"image": "Top_Up_Icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 18:01:16.745 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (224, 618)",
+				"image": "(TEXT:\"VOUCHER CODE\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:01:19.351 +0530",
+				"scriptName": "Common.script",
+				"message": "at (232, 1213)",
+				"image": "(TEXT:\"1,000 Ks\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:01:19.398 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 17,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:01:25.365 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Unable to Find Image (TEXT:\"VISA/Master\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:01:41.415 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Swiped up from (529, 1211) to (529, 251)",
+				"image": "2000Ks",
+				"handlerLine": 18,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:01:48.224 +0530",
+				"scriptName": "Common.script",
+				"message": "at (428, 1458)",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:02:15.659 +0530",
+				"scriptName": "Common.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"GLOBAL CARD\")\" within 20.00 seconds. Text not found.",
+				"image": "(TEXT:\"GLOBAL CARD\")",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"75.061\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 18:01:01 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_C_Top_Up.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 18:02:16.527 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:15 Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 18:02:16.543 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 18:01:01.464 +0530"
+}

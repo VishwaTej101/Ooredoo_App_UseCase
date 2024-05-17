@@ -1,0 +1,223 @@
+{
+	"entries": [
+		{
+				"image": "package_arrow",
+				"identifier": "loadingTime",
+				"message": "Target: package_arrow required 16.5 seconds to be found, possibly indicating slow loading time.",
+				"success": false,
+				"handlerLine": 3,
+				"scriptName": "Common.script",
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 17:14:36.381 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:14:37.507 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: package_arrow did not move within time window of 0.7s",
+				"handlerLine": 3,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:14:39.396 +0530",
+				"scriptName": "Common.script",
+				"message": "click on package_arrow produced visual feedback",
+				"handlerLine": 3,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:14:54.273 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: (TEXT:\"My Existing Package\") did not move within time window of 0.7s",
+				"handlerLine": 15,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:14:56.456 +0530",
+				"scriptName": "Common.script",
+				"message": "Text: 'Home' at  (108, 2225) has low contrast.",
+				"handlerLine": 7,
+				"identifier": "textLowContrast"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:14:59.459 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: (TEXT:\"Home\") did not move within time window of 0.7s",
+				"handlerLine": 7,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:06.631 +0530",
+				"scriptName": "Common.script",
+				"message": "click on (TEXT:\"Home\") produced visual feedback",
+				"handlerLine": 7,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:11.310 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: AyanTanOomanji did not move within time window of 0.7s",
+				"handlerLine": 3,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:12.925 +0530",
+				"scriptName": "Common.script",
+				"message": "click on AyanTanOomanji produced visual feedback",
+				"handlerLine": 3,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:15:19.022 +0530",
+				"scriptName": "Common.script",
+				"message": "Image: 'Cross_icon_01' containing text 'I X' at  (968, 419) has low contrast.",
+				"handlerLine": 11,
+				"identifier": "textLowContrast"
+			},
+		{
+				"image": "Cross_icon_01",
+				"identifier": "loadingTime",
+				"message": "Target: Cross_icon_01 required 6.1 seconds to be found, possibly indicating slow loading time.",
+				"success": false,
+				"handlerLine": 11,
+				"scriptName": "Common.script",
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 17:15:19.033 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:20.001 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: Cross_icon_01 did not move within time window of 0.7s",
+				"handlerLine": 11,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:15:20.352 +0530",
+				"scriptName": "Common.script",
+				"message": "Image: 'Cross_icon_01' containing text 'I X' at  (968, 419) has low contrast.",
+				"handlerLine": 3,
+				"identifier": "textLowContrast"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:21.180 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: Cross_icon_01 did not move within time window of 0.7s",
+				"handlerLine": 3,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:26.064 +0530",
+				"scriptName": "Common.script",
+				"message": "click on Cross_icon_01 produced visual feedback",
+				"handlerLine": 3,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:28.252 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: Ayan Tan did not move within time window of 0.7s",
+				"handlerLine": 3,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:30.372 +0530",
+				"scriptName": "Common.script",
+				"message": "click on Ayan Tan produced visual feedback",
+				"handlerLine": 3,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:15:38.886 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: (TEXT:\"Data\") moved by 495 pixels within time window of 0.7s",
+				"handlerLine": 15,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:15:42.465 +0530",
+				"scriptName": "Common.script",
+				"message": "Text: 'Home' at  (108, 2225) has low contrast.",
+				"handlerLine": 7,
+				"identifier": "textLowContrast"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:46.848 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: (TEXT:\"Home\") did not move within time window of 0.7s",
+				"handlerLine": 7,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:15:49.492 +0530",
+				"scriptName": "Common.script",
+				"message": "click on (TEXT:\"Home\") produced visual feedback",
+				"handlerLine": 7,
+				"identifier": "feedbackResponse"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"success": false,
+				"timestamp": "2024-05-06 17:16:12.610 +0530",
+				"scriptName": "Tests_Cases/TC_B_HomePage.script",
+				"message": "Target: (TEXT:\"Ayan Tan\") moved by 759 pixels within time window of 0.7s",
+				"handlerLine": 24,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": false,
+				"timestamp": "2024-05-06 17:16:40.797 +0530",
+				"scriptName": "Common.script",
+				"message": "Target: (TEXT:\"OMart\") moved by 211 pixels within time window of 0.7s",
+				"handlerLine": 7,
+				"identifier": "movingTarget"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"success": true,
+				"timestamp": "2024-05-06 17:16:41.992 +0530",
+				"scriptName": "Common.script",
+				"message": "click on (TEXT:\"OMart\") produced visual feedback",
+				"handlerLine": 7,
+				"identifier": "feedbackResponse"
+			}
+	],
+	"createdTimestamp": "2024-05-06 17:14:13.315 +0530"
+}

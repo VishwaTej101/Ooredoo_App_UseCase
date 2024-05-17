@@ -1,0 +1,122 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 14:57:14.316 +0530"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:15.302 +0530",
+				"message": "com.ooredoo.selfcare",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 9,
+				"identifier": "launchapp"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:21.717 +0530",
+				"scriptName": "Tests/TC_A_Login.script",
+				"message": "Unable to Find Image (TEXT:\"location\") within 2.00 seconds. Text not found.",
+				"image": "(TEXT:\"location\")",
+				"handlerLine": 12,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:30.678 +0530",
+				"scriptName": "Tests/TC_A_Login.script",
+				"message": "Unable to Find Image (TEXT:\"notifications\") within 2.00 seconds. Text not found.",
+				"image": "(TEXT:\"notifications\")",
+				"handlerLine": 17,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 14:57:30.903 +0530",
+				"scriptName": "Common.script",
+				"message": "at (1004, 163)",
+				"image": "lang_icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 14:57:33.479 +0530",
+				"scriptName": "Common.script",
+				"message": "at (539, 1436)",
+				"image": "(TEXT:\"ENGLISH\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:38.538 +0530",
+				"scriptName": "Tests/TC_A_Login.script",
+				"message": "at (266, 1282)",
+				"image": "(TEXT:\"MOBILE NUMBER\")",
+				"handlerLine": 27,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:39.273 +0530",
+				"message": "[backspace]",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 31,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:40.015 +0530",
+				"message": "[backspace]",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 31,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:41.078 +0530",
+				"message": "959952114410",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 35,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:41.822 +0530",
+				"message": "[BackButton]",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 38,
+				"identifier": "typetext"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 14:57:45.529 +0530",
+				"scriptName": "Common.script",
+				"message": "at (541, 2158)",
+				"image": "(TEXT:\"NEXT\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-06 14:57:46.428 +0530",
+				"message": "123456",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 42,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"32.146\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-06 14:57:14 +0530\", Successes:\"1\", TestCase:\"Tests/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 14:57:46.470 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:32 Tests/TC_A_Login.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-06 14:57:46.613 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 14:57:14.322 +0530"
+}

@@ -1,0 +1,99 @@
+{
+	"originalcapturelocation": [
+		912,
+		387,
+		115,
+		67
+	],
+	"lastmodifieddate": 1715755722.5869999,
+	"createddate": 1714984826.553,
+	"name": "Cross_icon_02",
+	"lastfounddate": 1715756780.26,
+	"ocrcapturestring": "I X",
+	"lastfoundlocation": [
+		911,
+		342,
+		115,
+		67
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 52175,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[57,33]",
+					"Tolerance": "_48",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "52176",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "52175",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "Cross_icon_01/Cross_icon_01.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					912,
+					387,
+					115,
+					67
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "I X"
+			},
+		{
+				"connectionportnum": 60346,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[57,33]",
+					"Tolerance": "_48",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "60349",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "60346",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "Cross_icon_01/Cross_icon_02.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "Mobile Device",
+				"capturerect": [
+					911,
+					342,
+					115,
+					67
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "I X"
+			}
+	]
+}

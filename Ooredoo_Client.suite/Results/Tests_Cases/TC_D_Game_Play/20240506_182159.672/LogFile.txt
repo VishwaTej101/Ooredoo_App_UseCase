@@ -1,0 +1,7 @@
+﻿2024-05-06 18:21:59.685 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:22:09.141 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-06 18:22:11.866 +0530	typetext		SwipeLeft{SearchRectangle:[2,1524,1058,1895]}	4	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:22:11.892 +0530	set		SWIPESPEED = 30	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:23:02.499 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:23:02.622 +0530	EndTestCase		(Duration:"62.926", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 18:21:59 +0530", Successes:"0", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-06 18:23:02.674 +0530	ABORTED		Execution Time 0:01:02 Tests_Cases/TC_D_Game_Play.script

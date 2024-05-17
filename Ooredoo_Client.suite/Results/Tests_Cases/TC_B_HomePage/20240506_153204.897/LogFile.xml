@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_B_HomePage_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 15:32:04.897 +0530"
+ tests="1"  failures="2" errors="1" time="43.751000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 15:32:04.897 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests/TC_B_HomePage.script" assertions="1" status="error"  time="43.705">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;My Existing Package&quot;)&quot; within 10.00 seconds. Text not found. -- Execution Time 0:00:43 Tests/TC_B_HomePage.script" />
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;My Existing Package&quot;)&quot; within 10.00 seconds. Text not found. -- Execution Time 0:00:43 Tests/TC_B_HomePage.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;My Existing Package&quot;)&quot; within 10.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

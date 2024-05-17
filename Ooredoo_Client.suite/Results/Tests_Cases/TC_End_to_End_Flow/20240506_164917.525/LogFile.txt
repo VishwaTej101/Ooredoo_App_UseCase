@@ -1,0 +1,9 @@
+﻿2024-05-06 16:49:17.537 +0530	START		Running Tests_Cases/TC_A_Login.script
+2024-05-06 16:49:17.842 +0530	launchapp		com.ooredoo.selfcare	9	on_tc_a_login	Tests_Cases/TC_A_Login.script
+2024-05-06 16:49:29.227 +0530	imagefound	(TEXT:"location")	Unable to Find Image (TEXT:"location") within 2.00 seconds. Text not found.	12	on_tc_a_login	Tests_Cases/TC_A_Login.script
+2024-05-06 16:49:40.582 +0530	imagefound	(TEXT:"notifications")	Unable to Find Image (TEXT:"notifications") within 2.00 seconds. Text not found.	17	on_tc_a_login	Tests_Cases/TC_A_Login.script
+2024-05-06 16:49:40.743 +0530	EndTestCase		(Duration:"23.195", Errors:"1", Exceptions:"0", StartTime:"2024-05-06 16:49:17 +0530", Successes:"0", TestCase:"Tests_Cases/TC_A_Login.script", Warnings:"0")
+2024-05-06 16:49:41.300 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_A_Login/20240506_164917.525/Screen_Error.png	CapturedErrorScreenshot	ADE3C435-2D1B-F303-42FF-4775B434B162
+2024-05-06 16:49:41.311 +0530	FAILURE	Screen_Error.png	BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Common'. -- Execution Time 0:00:23 Tests_Cases/TC_A_Login.script
+2024-05-06 16:49:42.311 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_A_Login/20240506_164917.525/Screen_Error_Web.png	CapturedWebErrorScreenshot	4FCFD451-E2B7-B808-7CED-9C0DE0C16EEB
+2024-05-06 16:49:42.324 +0530	FAILURE	Screen_Error_Web.png	BadValue: Bad value for Object expression.  Looking for an object or script identifier, got 'Common'. -- Execution Time 0:00:23 Tests_Cases/TC_A_Login.script

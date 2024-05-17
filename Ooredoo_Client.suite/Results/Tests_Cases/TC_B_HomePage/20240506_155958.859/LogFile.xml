@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests/TC_B_HomePage_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 15:59:58.859 +0530"
+ tests="1"  failures="0" errors="0" time="151.382000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 15:59:58.859 +0530"/>
+   <property name="Status" value="Success"/>
+  </properties>
+  <testcase name="Tests/TC_B_HomePage.script" assertions="1" status="success"  time="151.361">
+  </testcase>
+ </testsuite>
+</testsuites>

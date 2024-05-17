@@ -1,0 +1,4 @@
+﻿2024-05-02 16:49:00.056 +0530	START		Running Tests/TC_A_Login.script
+2024-05-02 16:49:00.616 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	2	on_tc_a_login	Tests/TC_A_Login.script
+2024-05-02 16:49:00.656 +0530	EndTestCase		(Duration:"0.584", Errors:"0", Exceptions:"0", StartTime:"2024-05-02 16:49:00 +0530", Successes:"1", TestCase:"Tests/TC_A_Login.script", Warnings:"0")
+2024-05-02 16:49:00.828 +0530	SUCCESS		Execution Time 0:00:00 Tests/TC_A_Login.script

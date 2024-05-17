@@ -1,0 +1,47 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 14:49:12.827 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 14:49:16.545 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button within 2.00 seconds",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 14:49:17.265 +0530",
+				"scriptName": "Common.script",
+				"message": "at (785, 630)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 14:49:53.845 +0530",
+				"scriptName": "Common.script",
+				"message": "Unable To Find Any Image On Screen \"(TEXT:\"My Existing Package\")\" within 10.00 seconds. Text not found.",
+				"image": "(TEXT:\"My Existing Package\")",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"41.425\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 14:49:12 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 14:49:54.267 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:41 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 14:49:54.309 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 14:49:12.833 +0530"
+}

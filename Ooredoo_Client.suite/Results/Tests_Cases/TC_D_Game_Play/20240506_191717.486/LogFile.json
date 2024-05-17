@@ -1,0 +1,114 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 19:17:17.499 +0530"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:17:17.633 +0530",
+				"message": "SWIPESPEED = 1.5",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:17:26.811 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:17:40.916 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped up from (406, 1698) to (406, 738)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 13,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:17:48.953 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:18:00.307 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped left from (687, 1236) to (255, 1236)",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 17,
+				"identifier": "swipeleft"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:18:12.662 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "found 2 images",
+				"image": "(TEXT:\"Oomanji\")",
+				"handlerLine": 19,
+				"identifier": "everyimagelocation"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:18:12.672 +0530",
+				"message": "[[150,870],[793,1225]]",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 21,
+				"identifier": "Log"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:18:12.795 +0530",
+				"message": "at (793, 1225)",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 23,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 19:18:21.241 +0530",
+				"scriptName": "Common.script",
+				"message": "at (538, 1504)",
+				"image": "(TEXT:\"PLAY NOW\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 19:18:24.743 +0530",
+				"scriptName": "Common.script",
+				"message": "at (361, 1443)",
+				"image": "Level_2",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 19:18:29.935 +0530",
+				"message": "[BackButton]",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 61,
+				"identifier": "typetext"
+			},
+		{
+				"message": "(Duration:\"72.506\", Errors:\"0\", Exceptions:\"0\", StartTime:\"2024-05-06 19:17:17 +0530\", Successes:\"1\", TestCase:\"Tests_Cases/TC_D_Game_Play.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 19:18:30.013 +0530"
+			},
+		{
+				"message": "Execution Time 0:01:12 Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "SUCCESS",
+				"timestamp": "2024-05-06 19:18:30.182 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 19:17:17.505 +0530"
+}

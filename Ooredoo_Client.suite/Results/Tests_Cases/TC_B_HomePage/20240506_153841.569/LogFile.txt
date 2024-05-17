@@ -1,0 +1,7 @@
+﻿2024-05-06 15:38:41.588 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 15:38:41.811 +0530	Exception		Image Property List did not contain "ImageName" property	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 15:38:42.462 +0530	EndTestCase		(Duration:"0.864", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 15:38:41 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 15:38:44.091 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_153841.569/Screen_Error.png	CapturedErrorScreenshot	740CF70D-FD36-6202-5BB1-9183B66CDC6E
+2024-05-06 15:38:44.106 +0530	FAILURE	Screen_Error.png	Image Not Found: imagefound Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script
+2024-05-06 15:38:45.002 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_B_HomePage/20240506_153841.569/Screen_Error_Web.png	CapturedWebErrorScreenshot	9EBF3802-ABF0-1909-4ACE-8F558A69307F
+2024-05-06 15:38:45.017 +0530	FAILURE	Screen_Error_Web.png	Image Not Found: imagefound Error - Image Property List did not contain "ImageName" property -- Execution Time 0:00:00 Tests/TC_B_HomePage.script

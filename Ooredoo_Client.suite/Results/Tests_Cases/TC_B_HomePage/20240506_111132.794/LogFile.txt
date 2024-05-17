@@ -1,0 +1,13 @@
+﻿2024-05-06 11:11:32.812 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 11:11:39.950 +0530	imagefound	Cross_button	Unable to Find Image Cross_button	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:11:40.920 +0530	click	package_arrow	at (835, 1232)	3	on_clickeventcollection	Common.script
+2024-05-06 11:11:53.726 +0530	waitfor	(TEXT:"My Existing Package")	found at (313, 373)	5	on_validate	Common.script
+2024-05-06 11:11:53.936 +0530	typetext		[BackButton]	12	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:01.156 +0530	imagefound	Cross_button	Unable to Find Image Cross_button	15	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:01.165 +0530	set		SWIPESPEED = 10	21	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:07.520 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	22	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:09.155 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:16.533 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	25	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:18.066 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 11:12:25.542 +0530	EndTestCase		(Duration:"52.697", Errors:"1", Exceptions:"0", StartTime:"2024-05-06 11:11:32 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 11:12:25.561 +0530	ABORTED		Execution Time 0:00:52 Tests/TC_B_HomePage.script

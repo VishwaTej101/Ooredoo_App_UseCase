@@ -1,0 +1,58 @@
+{
+	"lastmodifieddate": 1714729338.9170001,
+	"lastfoundlocation": [
+		401,
+		1280,
+		271,
+		127
+	],
+	"originalcapturelocation": [
+		401,
+		1280,
+		271,
+		127
+	],
+	"createddate": 1714729338.9170001,
+	"lastfounddate": 1714729358.197,
+	"testlocationdata": [
+		{
+				"connectionportnum": 64217,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[135,63]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "64218",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "64217",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "OK_popup.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					401,
+					1280,
+					271,
+					127
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "OK_popup"
+}

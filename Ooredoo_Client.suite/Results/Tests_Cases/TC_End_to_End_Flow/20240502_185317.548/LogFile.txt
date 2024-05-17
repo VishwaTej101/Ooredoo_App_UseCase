@@ -1,0 +1,7 @@
+﻿2024-05-02 18:53:17.567 +0530	START		Running Tests/TC_A_Login.script
+2024-05-02 18:53:18.619 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	2	on_tc_a_login	Tests/TC_A_Login.script
+2024-05-02 18:53:18.862 +0530	EndTestCase		(Duration:"1.265", Errors:"1", Exceptions:"0", StartTime:"2024-05-02 18:53:17 +0530", Successes:"0", TestCase:"Tests/TC_A_Login.script", Warnings:"0")
+2024-05-02 18:53:20.099 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_185317.548/Screen_Error.png	CapturedErrorScreenshot	E10145DF-FBD0-0000-4A9A-2ED939223DE7
+2024-05-02 18:53:20.201 +0530	FAILURE	Screen_Error.png	STUnknownMessage: ERROR: No Such Command: 'clickelement' -- Execution Time 0:00:01 Tests/TC_A_Login.script
+2024-05-02 18:53:21.779 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests/TC_A_Login/20240502_185317.548/Screen_Error_Web.png	CapturedWebErrorScreenshot	E7138F9B-1871-2C0C-5439-E5ABE9E47035
+2024-05-02 18:53:21.957 +0530	FAILURE	Screen_Error_Web.png	STUnknownMessage: ERROR: No Such Command: 'clickelement' -- Execution Time 0:00:01 Tests/TC_A_Login.script

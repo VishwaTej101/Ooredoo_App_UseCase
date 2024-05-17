@@ -1,0 +1,45 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_A_Login.script",
+				"identifier": "START",
+				"timestamp": "2024-05-03 09:53:38.457 +0530"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-03 09:53:39.145 +0530",
+				"message": "Swiped up from (540, 1680) to (540, 720)",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 2,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-03 09:53:45.309 +0530",
+				"scriptName": "Common.script",
+				"message": "at (540, 1743)",
+				"image": "(TEXT:\"Ooredoo\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_a_login",
+				"timestamp": "2024-05-03 09:54:29.671 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Tests/TC_A_Login.script",
+				"handlerLine": 6,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"51.522\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-03 09:53:38 +0530\", Successes:\"0\", TestCase:\"Tests/TC_A_Login.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-03 09:54:30.020 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:51 Tests/TC_A_Login.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-03 09:54:30.040 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-03 09:53:38.491 +0530"
+}

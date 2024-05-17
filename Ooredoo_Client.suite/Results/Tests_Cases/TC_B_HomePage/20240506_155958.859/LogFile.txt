@@ -1,0 +1,44 @@
+﻿2024-05-06 15:59:58.870 +0530	START		Running Tests/TC_B_HomePage.script in Usability Mode
+2024-05-06 16:00:04.858 +0530	imagefound	Cross_button	Unable to Find Image Cross_button	4	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:00:05.981 +0530	Usability		Target: package_arrow did not move within time window of 0.7s	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:09.756 +0530	click	package_arrow	at (832, 1240)	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:09.778 +0530	Usability		click on package_arrow produced visual feedback	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:14.767 +0530	Usability		Target: (TEXT:"My Existing Package") did not move within time window of 0.7s	15	on_clickeventcollection	Common.script
+2024-05-06 16:00:14.782 +0530	waitfor	(TEXT:"My Existing Package")	found at (313, 373)	15	on_clickeventcollection	Common.script
+2024-05-06 16:00:17.065 +0530	UsabilityWarning		Text: 'Home' at  (108, 2225) has low contrast.	7	on_clickeventcollection	Common.script
+2024-05-06 16:00:20.106 +0530	Usability		Target: (TEXT:"Home") did not move within time window of 0.7s	7	on_clickeventcollection	Common.script
+2024-05-06 16:00:27.032 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-06 16:00:27.032 +0530	Usability		click on (TEXT:"Home") produced visual feedback	7	on_clickeventcollection	Common.script
+2024-05-06 16:00:31.239 +0530	Usability		Target: AyanTanOomanji did not move within time window of 0.7s	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:32.910 +0530	click	AyanTanOomanji	at (152, 1741)	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:32.917 +0530	Usability		click on AyanTanOomanji produced visual feedback	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:38.270 +0530	UsabilityWarning		Image: 'Cross_icon_01' containing text 'I X' at  (968, 419) has low contrast.	11	on_clickeventcollection	Common.script
+2024-05-06 16:00:38.279 +0530	UsabilityWarning	Cross_icon_01	Target: Cross_icon_01 required 5.3 seconds to be found, possibly indicating slow loading time.	11	on_clickeventcollection	Common.script
+2024-05-06 16:00:39.258 +0530	Usability		Target: Cross_icon_01 did not move within time window of 0.7s	11	on_clickeventcollection	Common.script
+2024-05-06 16:00:39.266 +0530	waitfor	Cross_icon_01	found at (968, 419)	11	on_clickeventcollection	Common.script
+2024-05-06 16:00:39.697 +0530	UsabilityWarning		Image: 'Cross_icon_01' containing text 'I X' at  (968, 419) has low contrast.	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:40.567 +0530	Usability		Target: Cross_icon_01 did not move within time window of 0.7s	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:46.523 +0530	click	Cross_icon_01	at (968, 419)	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:46.528 +0530	Usability		click on Cross_icon_01 produced visual feedback	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:48.761 +0530	Usability		Target: Ayan Tan did not move within time window of 0.7s	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:50.332 +0530	click	Ayan Tan	at (406, 1701)	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:50.341 +0530	Usability		click on Ayan Tan produced visual feedback	3	on_clickeventcollection	Common.script
+2024-05-06 16:00:57.377 +0530	UsabilityWarning		Target: (TEXT:"Data") moved by 495 pixels within time window of 0.7s	15	on_clickeventcollection	Common.script
+2024-05-06 16:00:57.395 +0530	waitfor	(TEXT:"Data")	found at (129, 986)	15	on_clickeventcollection	Common.script
+2024-05-06 16:01:01.491 +0530	UsabilityWarning		Text: 'Home' at  (108, 2225) has low contrast.	7	on_clickeventcollection	Common.script
+2024-05-06 16:01:05.891 +0530	Usability		Target: (TEXT:"Home") did not move within time window of 0.7s	7	on_clickeventcollection	Common.script
+2024-05-06 16:01:13.507 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-06 16:01:13.514 +0530	Usability		click on (TEXT:"Home") produced visual feedback	7	on_clickeventcollection	Common.script
+2024-05-06 16:01:13.599 +0530	set		SWIPESPEED = 1	23	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:01:30.632 +0530	imagefound	(TEXT:"OMart")	Unable to Find Image (TEXT:"OMart") within 0.00 seconds. Text not found.	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:01:42.140 +0530	Usability		Target: (TEXT:"Ayan Tan") did not move within time window of 0.7s	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:01:58.196 +0530	swipeup	(TEXT:"Ayan Tan")	Swiped up from (149, 1713) to (149, 753)	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:02:13.974 +0530	UsabilityWarning		Target: (TEXT:"OMart") moved by 199 pixels within time window of 0.7s	7	on_clickeventcollection	Common.script
+2024-05-06 16:02:15.282 +0530	click	(TEXT:"OMart")	at (687, 1200)	7	on_clickeventcollection	Common.script
+2024-05-06 16:02:15.289 +0530	UsabilityWarning		click on (TEXT:"OMart") did not produce visual feedback	7	on_clickeventcollection	Common.script
+2024-05-06 16:02:30.091 +0530	Usability		Target: (TEXT:"Featured Products") did not move within time window of 0.7s	15	on_clickeventcollection	Common.script
+2024-05-06 16:02:30.102 +0530	waitfor	(TEXT:"Featured Products")	found at (355, 1182)	15	on_clickeventcollection	Common.script
+2024-05-06 16:02:30.185 +0530	typetext		[BackButton]	27	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 16:02:30.241 +0530	EndTestCase		(Duration:"151.361", Errors:"0", Exceptions:"0", StartTime:"2024-05-06 15:59:58 +0530", Successes:"1", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 16:02:30.249 +0530	UsabilitySummary		Usability Tests: 24, Usability Warnings: 8, loadingTime Tests: 1 Warnings: 1, textLowContrast Tests: 4 Warnings: 4, movingTarget Tests: 12 Warnings: 2, feedbackResponse Tests: 7 Warnings: 1
+2024-05-06 16:02:30.294 +0530	SUCCESS		Execution Time 0:02:31 Tests/TC_B_HomePage.script

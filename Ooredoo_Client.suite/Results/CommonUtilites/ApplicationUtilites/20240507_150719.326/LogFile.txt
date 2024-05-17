@@ -1,0 +1,3 @@
+﻿2024-05-07 15:07:19.355 +0530	START		Running CommonUtilites/ApplicationUtilites.script
+2024-05-07 15:07:20.477 +0530	EndTestCase		(Duration:"1.107", Errors:"0", Exceptions:"0", StartTime:"2024-05-07 15:07:19 +0530", Successes:"1", TestCase:"CommonUtilites/ApplicationUtilites.script", Warnings:"0")
+2024-05-07 15:07:20.580 +0530	SUCCESS		Execution Time 0:00:01 CommonUtilites/ApplicationUtilites.script

@@ -1,0 +1,20 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:50:47.842 +0530"
+			},
+		{
+				"message": "(Duration:\"9.176\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-06 15:50:47 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:50:57.043 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:09 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:50:57.094 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:50:47.866 +0530"
+}

@@ -1,0 +1,17 @@
+﻿2024-05-06 13:00:45.480 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 13:00:46.305 +0530	imagefound	Cross_button	found at (1032, 450)	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:00:47.008 +0530	click	Cross_button	at (1032, 450)	3	on_clickeventcollection	Common.script
+2024-05-06 13:00:48.675 +0530	click	package_arrow	at (835, 1232)	3	on_clickeventcollection	Common.script
+2024-05-06 13:01:01.620 +0530	waitfor	(TEXT:"My Existing Package")	found at (313, 373)	5	on_validate	Common.script
+2024-05-06 13:01:01.868 +0530	typetext		[BackButton]	12	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:01.876 +0530	set		SWIPESPEED = 3.5	23	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:08.806 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	24	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:13.590 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	26	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:20.014 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	27	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:24.740 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	26	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:31.143 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	27	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:35.747 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	26	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:43.312 +0530	imagefound	Report_Issue	Unable to Find Image Report_Issue	27	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:46.869 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	26	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 13:01:46.932 +0530	EndTestCase		(Duration:"61.442", Errors:"1", Exceptions:"0", StartTime:"2024-05-06 13:00:45 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 13:01:46.946 +0530	ABORTED		Execution Time 0:01:01 Tests/TC_B_HomePage.script

@@ -1,0 +1,55 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:52:24.514 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:52:24.776 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "found at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:52:25.239 +0530",
+				"scriptName": "Common.script",
+				"message": "at (1032, 450)",
+				"image": "Cross_button",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:52:26.521 +0530",
+				"scriptName": "Common.script",
+				"message": "at (835, 1232)",
+				"image": "package_arrow",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 15:52:35.018 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Common.script",
+				"handlerLine": 15,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"10.621\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 15:52:24 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:52:35.159 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:10 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:52:35.178 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:52:24.533 +0530"
+}

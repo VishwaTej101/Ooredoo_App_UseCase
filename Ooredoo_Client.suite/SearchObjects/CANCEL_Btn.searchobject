@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		64,
+		1700,
+		312,
+		188
+	],
+	"lastmodifieddate": 1714998525.2869999,
+	"createddate": 1714998525.2869999,
+	"name": "CANCEL_Btn",
+	"lastfounddate": 1715757208.5120001,
+	"ocrcapturestring": "CANCEL",
+	"lastfoundlocation": [
+		64,
+		1700,
+		312,
+		188
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 53496,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[156,94]",
+					"Tolerance": "_59",
+					"Discrepancy": "_0",
+					"SearchType": "Smoothed for Text"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "53497",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "53496",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "CANCEL_Btn.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					64,
+					1700,
+					312,
+					188
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "CANCEL"
+			}
+	]
+}

@@ -1,0 +1,29 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests/TC_B_HomePage.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 15:54:53.812 +0530"
+			},
+		{
+				"handlerName": "on_tc_b_homepage",
+				"timestamp": "2024-05-06 15:55:05.255 +0530",
+				"scriptName": "Tests/TC_B_HomePage.script",
+				"message": "Unable to Find Image Cross_button",
+				"image": "Cross_button",
+				"handlerLine": 4,
+				"identifier": "imagefound"
+			},
+		{
+				"message": "(Duration:\"45.321\", Errors:\"1\", Exceptions:\"0\", StartTime:\"2024-05-06 15:54:53 +0530\", Successes:\"0\", TestCase:\"Tests/TC_B_HomePage.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 15:55:39.148 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:45 Tests/TC_B_HomePage.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 15:55:39.166 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 15:54:53.820 +0530"
+}

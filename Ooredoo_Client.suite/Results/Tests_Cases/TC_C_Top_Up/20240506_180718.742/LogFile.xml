@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_C_Top_Up_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 18:07:18.742 +0530"
+ tests="1"  failures="2" errors="1" time="129.276000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 18:07:18.742 +0530"/>
+   <property name="Status" value="Failure"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_C_Top_Up.script" assertions="1" status="error"  time="129.242">
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;GLOBAL CARD&quot;)&quot; within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script" />
+    <failure type="FAILURE" message="Image Not Found: waitfor Error - Unable To Find Any Image On Screen &quot;(TEXT:&quot;GLOBAL CARD&quot;)&quot; within 10.00 seconds. Text not found. -- Execution Time 0:02:09 Tests_Cases/TC_C_Top_Up.script" />
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;GLOBAL CARD&quot;)&quot; within 10.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

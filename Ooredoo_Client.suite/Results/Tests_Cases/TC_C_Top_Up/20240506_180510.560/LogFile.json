@@ -1,0 +1,99 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 18:05:10.592 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:05:11.751 +0530",
+				"scriptName": "Common.script",
+				"message": "at (326, 2175)",
+				"image": "Top_Up_Icon",
+				"handlerLine": 3,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-06 18:05:27.244 +0530",
+				"scriptName": "Common.script",
+				"message": "found at (224, 618)",
+				"image": "(TEXT:\"VOUCHER CODE\")",
+				"handlerLine": 5,
+				"identifier": "waitfor"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:05:30.946 +0530",
+				"scriptName": "Common.script",
+				"message": "at (232, 1213)",
+				"image": "(TEXT:\"1,000 Ks\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:05:30.986 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 17,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:05:35.677 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Unable to Find Image (TEXT:\"VISA/Master\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 18,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:05:51.976 +0530",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"message": "Swiped up from (529, 1211) to (529, 251)",
+				"image": "2000Ks",
+				"handlerLine": 18,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:05:59.036 +0530",
+				"scriptName": "Common.script",
+				"message": "at (428, 1431)",
+				"image": "(TEXT:\"VISA/Master\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-06 18:06:01.255 +0530",
+				"scriptName": "Common.script",
+				"message": "at (539, 1238)",
+				"image": "(TEXT:\"CONFIRM\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_c_top_up",
+				"timestamp": "2024-05-06 18:06:06.453 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Tests_Cases/TC_C_Top_Up.script",
+				"handlerLine": 25,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"55.962\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 18:05:10 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_C_Top_Up.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 18:06:06.566 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:56 Tests_Cases/TC_C_Top_Up.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-06 18:06:06.584 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 18:05:10.600 +0530"
+}

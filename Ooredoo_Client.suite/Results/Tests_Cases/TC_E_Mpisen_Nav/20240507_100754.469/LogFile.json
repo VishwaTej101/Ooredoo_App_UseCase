@@ -1,0 +1,46 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_E_Mpisen_Nav.script",
+				"identifier": "START",
+				"timestamp": "2024-05-07 10:07:54.492 +0530"
+			},
+		{
+				"handlerName": "on_clickeventcollection",
+				"timestamp": "2024-05-07 10:08:01.269 +0530",
+				"scriptName": "Common.script",
+				"message": "at (972, 2225)",
+				"image": "(TEXT:\"M-Pitesan\")",
+				"handlerLine": 7,
+				"identifier": "click"
+			},
+		{
+				"handlerName": "on_tc_e_mpisen_nav",
+				"timestamp": "2024-05-07 10:08:08.763 +0530",
+				"scriptName": "Tests_Cases/TC_E_Mpisen_Nav.script",
+				"message": "Unable to Find Image M_pit_Cross",
+				"image": "M_pit_Cross",
+				"handlerLine": 5,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_validate",
+				"timestamp": "2024-05-07 10:08:17.840 +0530",
+				"message": "Searching For Image: OCR Error: Operation was aborted",
+				"scriptName": "Common.script",
+				"handlerLine": 5,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"23.417\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-07 10:07:54 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_E_Mpisen_Nav.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-07 10:08:17.926 +0530"
+			},
+		{
+				"message": "Execution Time 0:00:23 Tests_Cases/TC_E_Mpisen_Nav.script",
+				"identifier": "ABORTED",
+				"timestamp": "2024-05-07 10:08:17.964 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-07 10:07:54.507 +0530"
+}

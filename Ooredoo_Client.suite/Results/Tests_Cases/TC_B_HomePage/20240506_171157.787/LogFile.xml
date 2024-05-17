@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="Tests_Cases/TC_B_HomePage_script" package="Ooredoo_Client.suite" timestamp="2024-05-06 17:11:57.787 +0530"
+ tests="1"  failures="0" errors="0" time="126.551000">
+  <properties>
+   <property name="RunDate" value="2024-05-06 17:11:57.787 +0530"/>
+   <property name="Status" value="Aborted"/>
+  </properties>
+  <testcase name="Tests_Cases/TC_B_HomePage.script" assertions="1" status="error"  time="126.538">
+    <error type="Exception" message="Unable To Find Any Image On Screen &quot;(TEXT:&quot;Featured Products&quot;)&quot; within 20.00 seconds. Text not found." />
+  </testcase>
+ </testsuite>
+</testsuites>

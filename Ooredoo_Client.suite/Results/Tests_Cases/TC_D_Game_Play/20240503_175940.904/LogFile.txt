@@ -1,0 +1,12 @@
+﻿2024-05-03 17:59:40.928 +0530	START		Running Tests/TC_D_Game_Play.script
+2024-05-03 17:59:50.185 +0530	click	(TEXT:"Home")	at (108, 2225)	7	on_clickeventcollection	Common.script
+2024-05-03 17:59:53.405 +0530	typetext		SwipeLeft{SearchRectangle:[2,1524,1058,1895]}	4	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 17:59:59.771 +0530	imagelocation	(TEXT:"OMart")	at (687, 1665)	6	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:29.244 +0530	moveto	(TEXT:"OMart")	at (687, 1710)	7	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:29.273 +0530	set		SWIPESPEED = 15	9	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:31.262 +0530	swipeup		Swiped up from (540, 1680) to (540, 720)	10	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:31.269 +0530	set		SWIPESPEED = 30	12	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:38.525 +0530	swipeleft	(TEXT:"OMart")	Swiped left from (687, 1710) to (255, 1710)	13	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:43.195 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	15	on_tc_d_game_play	Tests/TC_D_Game_Play.script
+2024-05-03 18:00:43.277 +0530	EndTestCase		(Duration:"62.34", Errors:"1", Exceptions:"1", StartTime:"2024-05-03 17:59:40 +0530", Successes:"0", TestCase:"Tests/TC_D_Game_Play.script", Warnings:"0")
+2024-05-03 18:00:43.292 +0530	ABORTED		Execution Time 0:01:02 Tests/TC_D_Game_Play.script

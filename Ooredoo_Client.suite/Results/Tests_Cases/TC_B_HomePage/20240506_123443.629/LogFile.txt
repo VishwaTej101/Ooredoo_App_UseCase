@@ -1,0 +1,6 @@
+﻿2024-05-06 12:34:43.634 +0530	START		Running Tests/TC_B_HomePage.script
+2024-05-06 12:34:47.225 +0530	imagefound	Cross_button	Unable to Find Image Cross_button within 2.00 seconds	3	on_tc_b_homepage	Tests/TC_B_HomePage.script
+2024-05-06 12:34:47.954 +0530	click	package_arrow	at (783, 632)	3	on_clickeventcollection	Common.script
+2024-05-06 12:35:04.648 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	5	on_validate	Common.script
+2024-05-06 12:35:04.815 +0530	EndTestCase		(Duration:"21.162", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 12:34:43 +0530", Successes:"0", TestCase:"Tests/TC_B_HomePage.script", Warnings:"0")
+2024-05-06 12:35:04.833 +0530	ABORTED		Execution Time 0:00:21 Tests/TC_B_HomePage.script

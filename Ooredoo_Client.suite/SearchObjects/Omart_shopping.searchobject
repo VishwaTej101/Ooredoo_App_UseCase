@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		594,
+		991,
+		176,
+		341
+	],
+	"lastmodifieddate": 1715073310.3789999,
+	"createddate": 1715073310.3789999,
+	"name": "Omart_shopping",
+	"lastfounddate": 1715073716.9579999,
+	"ocrcapturestring": "O^art Shoppin 9 OMart",
+	"lastfoundlocation": [
+		594,
+		1106,
+		176,
+		341
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 61127,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[88,170]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "61128",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "61127",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "Omart_shopping.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					594,
+					991,
+					176,
+					341
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "O^art Shoppin 9 OMart"
+			}
+	]
+}

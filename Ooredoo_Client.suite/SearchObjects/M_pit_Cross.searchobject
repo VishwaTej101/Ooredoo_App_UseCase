@@ -1,0 +1,58 @@
+{
+	"lastmodifieddate": 1714729975.8959999,
+	"lastfoundlocation": [
+		965,
+		541,
+		52,
+		62
+	],
+	"originalcapturelocation": [
+		965,
+		541,
+		52,
+		62
+	],
+	"createddate": 1714729975.8959999,
+	"lastfounddate": 1715752325.062,
+	"testlocationdata": [
+		{
+				"connectionportnum": 64217,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[26,31]",
+					"Tolerance": "_1",
+					"Discrepancy": "_0",
+					"SearchType": "Precise to Pixel"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "64218",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "64217",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "M_pit_Cross.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					965,
+					541,
+					52,
+					62
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "M_pit_Cross"
+}

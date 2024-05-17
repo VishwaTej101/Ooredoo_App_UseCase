@@ -1,0 +1,58 @@
+{
+	"lastmodifieddate": 1715001099.858,
+	"lastfoundlocation": [
+		186,
+		882,
+		427,
+		222
+	],
+	"originalcapturelocation": [
+		186,
+		882,
+		427,
+		222
+	],
+	"createddate": 1715001099.858,
+	"lastfounddate": 1715001147.793,
+	"testlocationdata": [
+		{
+				"connectionportnum": 49834,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[213,111]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "49837",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "49834",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"serial": "RF8N315319K",
+					"remote_ip_addr": "localhost"
+				},
+				"name": "game_succes_popup.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"capturerect": [
+					186,
+					882,
+					427,
+					222
+				],
+				"connectiontype": "Mobile Device",
+				"connectionserverid": "localhost"
+			}
+	],
+	"name": "game_succes_popup"
+}

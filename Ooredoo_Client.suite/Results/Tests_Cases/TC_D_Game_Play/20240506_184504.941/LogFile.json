@@ -1,0 +1,82 @@
+{
+	"entries": [
+		{
+				"message": "Running Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "START",
+				"timestamp": "2024-05-06 18:45:04.958 +0530"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 18:45:05.480 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 12,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 18:45:21.850 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Unable to Find Image (TEXT:\"OMart\") within 0.00 seconds. Text not found.",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 13,
+				"identifier": "imagefound"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 18:45:42.489 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "Swiped up from (406, 1698) to (406, 738)",
+				"image": "(TEXT:\"Ayan Tan\")",
+				"handlerLine": 13,
+				"identifier": "swipeup"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 18:45:50.550 +0530",
+				"message": "SWIPESPEED = 1",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"handlerLine": 15,
+				"identifier": "set"
+			},
+		{
+				"handlerName": "on_tc_d_game_play",
+				"timestamp": "2024-05-06 18:47:23.989 +0530",
+				"scriptName": "Tests_Cases/TC_D_Game_Play.script",
+				"message": "No Image Found On Screen: \"(TEXT:\"OMart\")\"",
+				"image": "(TEXT:\"OMart\")",
+				"handlerLine": 16,
+				"identifier": "Exception"
+			},
+		{
+				"message": "(Duration:\"139.584\", Errors:\"1\", Exceptions:\"1\", StartTime:\"2024-05-06 18:45:04 +0530\", Successes:\"0\", TestCase:\"Tests_Cases/TC_D_Game_Play.script\", Warnings:\"0\")",
+				"identifier": "EndTestCase",
+				"timestamp": "2024-05-06 18:47:24.555 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_D_Game_Play/20240506_184504.941/Screen_Error.png",
+				"message": "CapturedErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 18:47:25.431 +0530"
+			},
+		{
+				"image": "Screen_Error.png",
+				"message": "Image Not Found: swipeleft Error - No Image Found On Screen: \"(TEXT:\"OMart\")\" -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 18:47:25.443 +0530"
+			},
+		{
+				"image": "C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_D_Game_Play/20240506_184504.941/Screen_Error_Web.png",
+				"message": "CapturedWebErrorScreenshot",
+				"identifier": "Error Screen",
+				"timestamp": "2024-05-06 18:47:26.456 +0530"
+			},
+		{
+				"image": "Screen_Error_Web.png",
+				"message": "Image Not Found: swipeleft Error - No Image Found On Screen: \"(TEXT:\"OMart\")\" -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script",
+				"identifier": "FAILURE",
+				"timestamp": "2024-05-06 18:47:26.483 +0530"
+			}
+	],
+	"createdTimestamp": "2024-05-06 18:45:04.969 +0530"
+}

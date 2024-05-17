@@ -1,0 +1,12 @@
+﻿2024-05-07 10:03:46.801 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:03:47.078 +0530	set		SWIPESPEED = 1.5	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:03:59.086 +0530	imagefound	(TEXT:"OMart")	Unable to Find Image (TEXT:"OMart") within 0.00 seconds. Text not found.	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:08.641 +0530	swipeup	(TEXT:"Ayan Tan")	Swiped up from (198, 529) to (198, 0)	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:16.687 +0530	set		SWIPESPEED = 1	15	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:29.565 +0530	swipeleft	(TEXT:"OMart")	Swiped left from (687, 1741) to (255, 1741)	17	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:44.650 +0530	everyimagelocation	(TEXT:"Oomanji")	found 1 images	19	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:44.664 +0530	Log		[[150,848]]	21	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:04:44.780 +0530	click		at current mouse point (255, 1741)	23	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-07 10:05:14.326 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	7	on_clickeventcollection	Common.script
+2024-05-07 10:05:14.472 +0530	EndTestCase		(Duration:"87.657", Errors:"1", Exceptions:"1", StartTime:"2024-05-07 10:03:46 +0530", Successes:"0", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-07 10:05:14.489 +0530	ABORTED		Execution Time 0:01:27 Tests_Cases/TC_D_Game_Play.script

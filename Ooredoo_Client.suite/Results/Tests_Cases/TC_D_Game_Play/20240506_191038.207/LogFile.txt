@@ -1,0 +1,5 @@
+﻿2024-05-06 19:10:38.232 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:10:38.429 +0530	set		SWIPESPEED = 1	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:10:41.424 +0530	Exception		Searching For Image: OCR Error: Operation was aborted	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 19:10:41.737 +0530	EndTestCase		(Duration:"3.491", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 19:10:38 +0530", Successes:"0", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-06 19:10:41.825 +0530	ABORTED		Execution Time 0:00:03 Tests_Cases/TC_D_Game_Play.script

@@ -1,0 +1,60 @@
+{
+	"originalcapturelocation": [
+		983,
+		417,
+		67,
+		72
+	],
+	"lastmodifieddate": 1714654760.848,
+	"createddate": 1714654760.848,
+	"name": "HomePage_Cross_Btn",
+	"lastfounddate": 1714710442.1890001,
+	"ocrcapturestring": "K",
+	"lastfoundlocation": [
+		983,
+		417,
+		67,
+		72
+	],
+	"testlocationdata": [
+		{
+				"connectionportnum": 62016,
+				"properties": {
+					"CropRectangle": "[0,0,0,0]",
+					"Rotate": 0,
+					"Scale": "    1",
+					"HotSpot": "[33,36]",
+					"Tolerance": "_45",
+					"Discrepancy": "_0",
+					"SearchType": "Tolerant of Background"
+				},
+				"sutinfo": {
+					"model": "SM-G980F",
+					"webdriver_port": "62017",
+					"remote_adb_port": "0",
+					"device_os": "android",
+					"manufacturer": "samsung",
+					"type": "kvsfa",
+					"architecture": "arm64-v8a",
+					"vnc_port": "62016",
+					"sdk": "33",
+					"android_version": "13",
+					"CacheDir": "/data/local/tmp",
+					"remote_ip_addr": "localhost",
+					"serial": "RF8N315319K"
+				},
+				"name": "HomePage_Cross_Btn.png",
+				"connectionname": "Mobile Device",
+				"type": 1,
+				"connectionserverid": "localhost",
+				"capturerect": [
+					983,
+					417,
+					67,
+					72
+				],
+				"connectiontype": "Mobile Device",
+				"capturedocrtext": "K"
+			}
+	]
+}

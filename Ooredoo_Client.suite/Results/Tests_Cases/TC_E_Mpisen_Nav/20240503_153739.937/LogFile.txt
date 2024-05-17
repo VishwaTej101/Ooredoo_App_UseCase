@@ -1,0 +1,5 @@
+﻿2024-05-03 15:37:39.972 +0530	START		Running Tests/TC_E_Mpisen_Nav.script
+2024-05-03 15:37:50.423 +0530	click	(TEXT:"M-Pitesan")	at (972, 2225)	7	on_clickeventcollection	Common.script
+2024-05-03 15:37:55.654 +0530	imagefound	M_pit_Cross	Unable to Find Image M_pit_Cross	3	on_tc_e_mpisen_nav	Tests/TC_E_Mpisen_Nav.script
+2024-05-03 15:37:55.681 +0530	EndTestCase		(Duration:"15.701", Errors:"0", Exceptions:"0", StartTime:"2024-05-03 15:37:39 +0530", Successes:"1", TestCase:"Tests/TC_E_Mpisen_Nav.script", Warnings:"0")
+2024-05-03 15:37:55.790 +0530	SUCCESS		Execution Time 0:00:15 Tests/TC_E_Mpisen_Nav.script

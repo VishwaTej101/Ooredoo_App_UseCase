@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<statistics>
+ <script name="CommonUtilites/ApplicationUtilites">
+  <LastStatus>Success</LastStatus>
+  <NumberOfRuns>2</NumberOfRuns>
+  <NumberOfFails>0</NumberOfFails>
+  <FirstRun>2024-05-07 15:07:19 +0530</FirstRun>
+  <LastRun>2024-05-08 10:56:48 +0530</LastRun>
+  <TotalTimeOnSuccess>1.616000</TotalTimeOnSuccess>
+ </script>
+ <script name="Tests_Cases/TC_End_to_End_Flow">
+  <LastStatus>Failure</LastStatus>
+  <NumberOfRuns>25</NumberOfRuns>
+  <NumberOfFails>5</NumberOfFails>
+  <FirstRun>2024-05-02 16:45:16 +0530</FirstRun>
+  <LastRun>2024-05-07 10:47:11 +0530</LastRun>
+  <TotalTimeOnSuccess>1090.640000</TotalTimeOnSuccess>
+ </script>
+</statistics>

@@ -1,0 +1,11 @@
+﻿2024-05-06 18:45:04.958 +0530	START		Running Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:45:05.480 +0530	set		SWIPESPEED = 1	12	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:45:21.850 +0530	imagefound	(TEXT:"OMart")	Unable to Find Image (TEXT:"OMart") within 0.00 seconds. Text not found.	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:45:42.489 +0530	swipeup	(TEXT:"Ayan Tan")	Swiped up from (406, 1698) to (406, 738)	13	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:45:50.550 +0530	set		SWIPESPEED = 1	15	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:47:23.989 +0530	Exception	(TEXT:"OMart")	No Image Found On Screen: "(TEXT:"OMart")"	16	on_tc_d_game_play	Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:47:24.555 +0530	EndTestCase		(Duration:"139.584", Errors:"1", Exceptions:"1", StartTime:"2024-05-06 18:45:04 +0530", Successes:"0", TestCase:"Tests_Cases/TC_D_Game_Play.script", Warnings:"0")
+2024-05-06 18:47:25.431 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_D_Game_Play/20240506_184504.941/Screen_Error.png	CapturedErrorScreenshot	6E8F99C6-962C-6F0F-5B0A-CF02C1F200D6
+2024-05-06 18:47:25.443 +0530	FAILURE	Screen_Error.png	Image Not Found: swipeleft Error - No Image Found On Screen: "(TEXT:"OMart")" -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script
+2024-05-06 18:47:26.456 +0530	Error Screen	C:/Users/vishwa.seelam/OneDrive - Ideabytes/Desktop/Ooredoo_Super_App_Client/Ooredoo_Client.suite/Results/Tests_Cases/TC_D_Game_Play/20240506_184504.941/Screen_Error_Web.png	CapturedWebErrorScreenshot	31011ADE-FFA9-1606-4393-AE9F5E31C0B8
+2024-05-06 18:47:26.483 +0530	FAILURE	Screen_Error_Web.png	Image Not Found: swipeleft Error - No Image Found On Screen: "(TEXT:"OMart")" -- Execution Time 0:02:19 Tests_Cases/TC_D_Game_Play.script
